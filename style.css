@@ -1,0 +1,289 @@
+body 
+{
+	font-family: 'Raleway', sans-serif;
+	display: flex;
+	justify-content: center;
+	margin: 0;
+}
+
+#container 
+{
+	width: 100%;
+}
+
+h2, h3, p
+{
+	margin: 0;
+}
+
+/*Header*/
+header
+{
+	display: flex;
+	flex-direction: column;
+	width: 90.5vw;
+    margin-left: 4.7vw;
+}
+
+/*Header du header*/
+.header-du-header
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo
+{
+	background-image: url(images/logo.png);
+    width: 7vw;
+    height: 2vw;
+    background-repeat: no-repeat;
+    margin-top: 3.55vw;
+}
+
+nav ul
+{
+	display: flex;
+	margin: 0;
+	list-style: none;
+}
+
+nav li
+{
+	border-top: 0.15vw solid white;
+	padding-top: 3.55vw;
+	margin-left: 3.5vw;
+}
+
+nav li:hover
+{
+	border-top: 0.15vw solid #0065FC;
+}
+
+nav a
+{
+	font-size: 1em;
+	color: black;
+	text-decoration: none;
+}
+
+nav a:hover
+{
+	color: #0065FC;
+}
+
+.sinscrire
+{
+	font-size: 1em;
+	font-weight: bold;
+	color: #0065FC 
+}
+
+.sinscrire:hover
+{
+	border-top: 0.15vw solid white;
+}
+
+/*Présentation*/
+.presentation
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.titre-presentation-h2
+{
+	font-size: 1.2em;
+}
+
+.titre-presentation
+{
+	margin-top: 2vw;
+}
+
+.txt-presentation
+{
+	margin: 1vw 0 1.3vw 0;
+}
+
+.presentation p
+{
+	font-size: 1em;
+}
+
+/*Zone de recherche*/
+.zone-recherche
+{
+	display: flex;
+}
+
+.loupe
+{
+	display: none;
+}
+
+.bloc-map
+{
+	padding: 0.9vw 1.1vw 0.9vw 1.1vw;
+	border-radius: 1vw 0 0 1vw;
+	background-color: #E4E4E4;
+}
+
+.zone-texte
+{
+	width: 10.1vw;
+	padding: 0.8vw;
+	border: solid 0.05em #E4E4E4;
+	font-family: 'Raleway';
+	font-size: 0.9em;
+	font-weight: bold;
+}
+
+button
+{
+	padding: 0.8vw;
+	background-color: #0065FC;
+	border: white;
+	border-radius: 0 1vw 1vw 0;
+	font-family: 'Raleway';
+	font-size: 0.9em;
+	font-weight: bold;
+	color: white;
+}
+
+/*Filtres*/
+.filtres
+{
+	display: flex;
+	width: 66vw;
+	justify-content: space-between;
+	margin: 2vw 0 2.1vw 0;
+}
+
+.titre-filtres
+{
+	display: flex;
+	align-items: center;
+}
+
+.titre-filtres-h3
+{
+	font-size: 1em;
+}
+
+.filtres h3
+{
+	margin: 0;
+}
+
+.bloc-thematiques
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 60vw;
+}
+
+.thematique
+{
+	display: flex;
+	align-items: center;
+	border: solid 0.1em #CBCBCB;
+	border-radius: 2vw;
+	font-weight: bold;
+}
+
+.icone
+{
+	background-color: #DEEBFF;
+	border-radius: 2vw;
+	color: #0065FC;
+}
+
+.txt-filtre
+{
+	display: flex;
+	justify-content: center;
+	width: auto;
+}
+
+.thematique p
+{
+	margin: 0.7vw;
+	font-size: 1em;
+}
+
+/*Filtre "Economique"*/
+.fa-money-bill-wave
+{
+	padding: 0.9vw;
+}
+
+.logo-billet
+{
+	box-shadow: 0 0 0 0.086vw #DEEBFF;
+}
+
+/*Filtre "Familial"*/
+.fa-child
+{
+	padding: 0.9vw 1.15vw 0.9vw 1.15vw;
+}
+
+.logo-bonhomme
+{
+	box-shadow: 0px 0px 0px 0.12vw #DEEBFF;
+}
+
+/*Filtre "Romantique"*/
+.fa-heart
+{
+	padding: 1vw;
+}
+
+.logo-coeur
+{
+	box-shadow: 0 0 0 0.11vw #DEEBFF;
+}
+
+/*Filtre "Animaux autorisés"*/
+.fa-dog
+{
+	padding: 1vw;
+}
+
+.logo-chien
+{
+	box-shadow: 0 0 0 0.11vw #DEEBFF;
+}
+
+/*Point infortmation*/
+.information
+{
+	display: flex;
+	align-items: center;
+	margin-bottom: 2vw;
+}
+
+.bloc-icone
+{
+	display: flex;
+	border-radius: 2vw;
+	border: 0.05vw solid #DCDCDC;
+	padding: 0.4vw 0.6vw 0.4vw 0.6vw;
+	margin-right: 1vw;	
+	width: 3.5px;
+    height: 9px;
+}
+
+.fa-info
+{
+	color: #0065FC;
+	font-size: 0.6em;
+}
+
+.information p
+{
+	font-size: 1em;
+	margin: 0;
+}
