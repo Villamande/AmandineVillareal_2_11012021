@@ -514,3 +514,168 @@ button
 	font-size: 0.65em;
 	color:  #0065FC;
 }
+
+/*Activités à Marseille*/
+.bloc-activites
+{
+	display: flex;
+	justify-content: space-between;
+	width: 90.5vw;
+	height: 39.5vw;
+}
+
+.activites
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;	
+}
+
+.header-activites
+{
+	display:flex;
+	height: 3vw;
+	font-size: 0.75em;
+}
+
+.activites h2
+{
+	margin: 0;
+}
+
+.blocs-activites
+{
+	display: grid;
+	grid-template-columns: 20.6vw 20.6vw 20.6vw 20.6vw;	
+	grid-template-rows: 4.25vw 5.3vw 0.8vw 4.25vw 3.3vw;
+	grid-column-gap: 2.68vw;
+	grid-row-gap: 2.72vw;
+	grid-template-areas: 
+	"bloc-port bloc-pomegues bloc-calanques bloc-dame"
+	"bloc-port bloc-pomegues bloc-calanques bloc-dame"
+	"bloc-port bloc-pomegues bloc-calanques bloc-longchamp"
+	"bloc-port bloc-frioul bloc-calanques bloc-longchamp"
+	"bloc-port bloc-frioul bloc-calanques bloc-longchamp";
+}
+
+.img-activites
+{
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+	border-radius: 1vw 1vw 0 0;
+}
+
+.bloc-activites h3
+{
+	font-size: 0.8em;
+}
+
+.bloc-txt
+{
+	padding-top: 0.9vw;
+	padding-left: 1vw;
+}
+
+.carte-activite
+{
+	border-radius: 1vw;
+	box-shadow: 0.2vw 0.1vw 0.5vw #D3D3D3;	
+}
+
+/*Vieux Port*/
+.port
+{
+	grid-area: bloc-port;
+}
+
+.bloc-img-port
+{
+	height: 26vw;
+}
+
+.img-port
+{
+	object-position: 57% 50%;
+}
+
+/*Fort de Pomègues*/
+.pomegues
+{
+	grid-area: bloc-pomegues;
+}
+
+.bloc-img-pomegues
+{
+	height: 12.6vw;
+}
+
+.img-pomegues
+{
+	object-position: 50% 40%;
+}
+
+/*Iles du Frioul*/
+.frioul 
+{
+	grid-area: bloc-frioul;
+}
+
+.bloc-img-frioul
+{
+	height: 7vw;
+}
+
+.img-frioul
+{
+	object-position: 50% 25%;
+}
+
+/*Parc National des Calanques*/
+.calanques
+{
+	grid-area: bloc-calanques;
+}
+
+.bloc-img-calanques
+{
+	height: 26vw;
+}
+
+.img-calanques
+{
+	object-position: 55% 50%;
+}
+
+/*Notre Dame-de-la-Garde*/
+.dame
+{
+	grid-area: bloc-dame;
+}
+
+.bloc-img-dame
+{
+	height: 9vw;
+}
+
+.img-dame
+{
+	object-position: 50% 15%;
+}
+
+/*Parc Longchamp*/
+.longchamp
+{
+	grid-area: bloc-longchamp;
+}
+
+.bloc-img-longchamp
+{
+	height: 10.7vw;
+}
+
+.img-longchamp
+{
+	object-position: 50% 15%;
+}
+
