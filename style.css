@@ -287,3 +287,230 @@ button
 	font-size: 1em;
 	margin: 0;
 }
+
+/*Main*/
+/*bloc des 2 sections*/
+.cadre-blocs
+{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.bloc-hebergements, .bloc-activites
+{
+	display: flex;
+	justify-content: space-between;
+	width: 90.5vw;
+}
+
+.bloc-hebergements h2
+{
+	font-size: 1.17em;
+}
+
+.bloc-hebergements h3
+{
+	font-size: 0.87em;
+}
+
+.bloc-hebergements p
+{
+	font-size: 0.75em;
+}
+
+/*section "Hébergements à Marseille"*/
+.hebergements
+{
+	width: 59vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 2vw;
+	background-color: #F2F2F2;
+}
+
+.titre-hebergements
+{
+	width: 52.5vw;
+	margin: 2.5vw 0 1.5vw 0;
+}
+
+.bloc-cartes
+{
+	display: grid;
+	grid-template-columns: 16vw 16vw 16vw;
+	grid-template-rows: 13.1vw 13.1vw;
+	grid-column-gap: 2.4vw;
+	grid-row-gap: 2.5vw;
+}
+
+.carte-hebergement
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0.3vw;
+	background-color: white;
+	border-radius: 8%;
+	box-shadow: 0.2vw 0.1vw 0.5vw #D3D3D3;
+}
+
+.carte-hebergement em
+{
+	font-weight: bold;
+}
+
+.bloc-img
+{
+	width: 15.35vw;
+	height: 7.5vw;
+}
+
+.carte-hebergement img
+{
+	object-fit: cover;
+	width: 15.35vw;
+	height: 7.5vw;
+	border-radius: 1vw 1vw 0 0;
+}
+
+.bloc-carte h3
+{
+	margin-top: 0.6vw;
+}
+
+.bloc-texte
+{
+	width: 14.5vw;
+	display: flex;
+	flex-direction: column;
+}
+
+.nom-hotel
+{
+	margin: 0.5vw 0 0.5vw 0.2vw;
+}
+
+.prix-hotel
+{
+	margin: 0 0 0.5vw 0.2vw;
+}
+
+.quatre-etoiles
+{
+	display: flex;
+	font-size: 0.75em;
+	color:  #0065FC; 
+}
+
+.grise
+{
+	font-size: 1.07em;
+	color:#D9D9D9;
+}
+
+.trois-etoiles
+{
+	display: flex;
+	font-size: 0.75em;
+	color:  #0065FC; 
+}
+
+.etoiles
+{
+	display: flex;
+	font-size: 0.75em;
+	color:  #0065FC; 
+}
+
+.footer-hebergements
+{
+	width: 52.5vw;
+	margin-top: 2.6vw;
+}
+
+/*section "Les plus populaires*/
+.populaires
+{
+	width: 28.5vw;
+	height: 40.4vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 2vw;
+	background-color: #F2F2F2;
+}
+
+.header-populaires
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 22.6vw;
+	margin: 2.5vw 0 1.5vw 0;
+}
+
+.bloc-cartesp
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 22.6vw;
+	height: 32.8vw;
+}
+
+.carte-populaire
+{
+	display: flex;
+	width: 22vw;
+	height: 9vw;
+	padding: 0.3vw;
+	justify-content: space-between;
+	background-color: white;
+	border-radius: 1vw;
+	box-shadow: 0.2vw 0.1vw 0.5vw #D3D3D3;
+}
+
+.carte-populaire em
+{
+	font-weight: bold;
+}
+
+.carte-populaire img
+{
+	object-fit: cover;
+	width: 9vw;
+	height: 9.04vw;
+	border-radius: 1vw 0 0 1vw;
+}
+
+.bloc-textep
+{
+	width: 12vw;
+}
+
+.nom-hotelp
+{
+	margin: 1vw 2vw 0.5vw 0;
+}
+
+.prix-hotelp
+{
+	margin-bottom: 3vw;
+}
+
+.etoilep
+{
+	display: flex;
+	font-size: 0.65em;
+	color: #0065FC;
+}
+
+.quatre-etoilesp
+{
+	display: flex;
+	font-size: 0.65em;
+	color:  #0065FC;
+}
