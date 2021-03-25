@@ -1674,3 +1674,198 @@ footer
 }
 }
 
+/*Version HD*/
+@media only screen and (min-device-width : 1440px) and (max-device-width : 2560px) 
+{
+/*Header du header*/
+.logo
+{
+	background-image: url(images/logo_hd.png);
+    width: 9vw;
+    height: 3vw;
+    background-repeat: no-repeat;
+    margin-top: 3.55vw;
+}
+
+nav a
+{
+	font-size: 1.7em;
+}
+
+.sinscrire
+{
+	font-size: 1.7em;
+}
+
+/*Présentation*/
+.titre-presentation-h2 
+{
+    font-size: 2em;
+}
+
+.presentation p
+{
+	font-size: 1.7em;
+}
+
+/*Zone de recherche*/
+.bloc-map 
+{
+    padding: 1.4vw 1.5vw 1.4vw 1.5vw;
+    border-radius: 1.3vw 0 0 1.3vw;
+}
+
+.fa-map-marker-alt
+{
+	font-size: 2em;
+}
+
+.zone-texte
+{
+	font-size: 1.8em;
+	padding: 0.8vw 4vw 0.8vw 1.5vw;
+}
+
+.loupe
+{
+	display: none;
+}
+
+button 
+{
+    padding: 0.8vw 1.2vw 0.8vw 1.2vw;
+	font-size: 1.8em;
+}
+
+/*Filtres*/
+.titre-filtres-h3 
+{
+    font-size: 1.9em;
+}
+
+.fa-money-bill-wave 
+{
+    font-size: 2em;
+	padding: 1vw;
+}
+
+.fa-child 
+{
+    padding: 1.1vw 1.3vw 1.05vw 1.3vw;
+    font-size: 2em;
+}
+
+.fa-child 
+{
+    padding: 1.1vw 1.3vw 1.05vw 1.3vw;
+    font-size: 2em;
+}
+
+.fa-dog 
+{
+    padding: 1.2vw;
+    font-size: 2em;
+}
+
+.thematique p 
+{
+    margin: 1vw 1.4vw 1vw 1vw;
+    font-size: 1.7em;
+}
+
+/*Point information*/
+.bloc-icone
+{
+	padding: 0.5vw 1vw 1.1vw 0.9vw;
+}
+
+.fa-info
+{
+	font-size: 1.5em;
+}
+
+.information p 
+{
+    font-size: 1.7em;
+}
+
+/*Bloc des 2 sections*/
+.bloc-hebergements h2 
+{
+    font-size: 2em;
+}
+
+.bloc-hebergements h3 
+{
+    font-size: 1.5em;
+}
+
+.bloc-hebergements p 
+{
+    font-size: 1.2em;
+}
+
+/*Section "Hébergements à Marseille"*/
+.etoiles
+{
+	font-size: 1.1em;
+}
+
+.quatre-etoiles
+{
+	font-size: 1.1em;
+}
+
+.trois-etoiles
+{
+	font-size: 1.1em;
+}
+
+.footer-hebergements h3
+{
+	font-size: 1.8em;
+}
+
+/*Section "Les plus populaires"*/
+.fa-chart-line
+{
+	font-size: 2em;
+}
+
+.etoilesp
+{
+	font-size: 1em;
+}
+
+.quatre-etoilesp
+{
+	font-size: 1em;
+}
+
+/*Section "Activités à Marseille"*/
+.header-activites
+{
+	height: 4vw;
+}
+
+.header-activites h2
+{
+	font-size: 2.8em;
+}
+
+.bloc-activites h3 
+{
+    font-size: 1.5em;
+}
+
+/*Footer*/
+.bloc-thematique h3 
+{
+    font-size: 1.7em;
+}
+
+.bloc-thematique p 
+{
+    font-size: 1.5em;
+}
+}
