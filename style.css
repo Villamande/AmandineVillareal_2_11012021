@@ -679,3 +679,31 @@ button
 	object-position: 50% 15%;
 }
 
+/*Footer*/
+footer
+{
+	width: 100vw;
+	height: 13vw;
+	background-color: #F2F2F2;
+}
+
+.bloc-footer
+{
+	display: flex;
+	width: 69vw;
+	justify-content: space-between;
+	margin: 0 0 0 4.8vw;
+}
+
+.bloc-thematique h3
+{
+	font-size: 0.95em;
+	margin: 2.8vw 0 1.3vw 0;
+}
+
+.bloc-thematique p
+{
+	font-size: 0.85em;
+	margin: 0 0 0.7vw 0;
+}
+
