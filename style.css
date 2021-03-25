@@ -1188,3 +1188,489 @@ footer
 }
 }
 
+/*Version tablette*/
+@media only screen and (min-device-width : 425px) and (max-device-width : 768px) 
+{
+header
+{
+	width: auto;
+	margin-left: 0;
+}
+
+/*Header du header*/
+.header-du-header
+{
+	align-items: normal;
+}
+
+nav li 
+{
+	font-size: 1.1em;
+	border-bottom: 1vw solid white;
+	padding-top: 0;
+    margin-left: 0;
+}
+
+nav li:hover
+{
+	border-top: none;
+	border-bottom: 1vw solid #0065FC;
+}
+
+ul
+{
+	flex-wrap: wrap;
+}
+
+.sinscrire
+{
+	margin: 0 0 7vw 67vw;
+    padding: 0;
+    order: -2;
+}
+
+.sinscrire:hover
+{
+	border-bottom: 1vw solid white;
+}
+
+/*Présentation*/
+.presentation
+{
+	margin: 4vw 4vw 4vw 7vw;
+}
+
+.titre-presentation-h2
+{
+	font-size: 1.3em;
+    margin: 0 5vw 1.3vw 0;
+}
+
+.txt-presentation 
+{
+    margin-bottom: 5vw;
+}
+
+.presentation p
+{
+	font-size: 1.15em;
+}
+
+/*Zone de recherche*/
+.bloc-map
+{
+	padding: 3vw;
+    border-radius: 2.5vw 0 0 2.5vw;
+}
+
+.fa-map-marker-alt
+{
+	font-size: 1.3em;
+}
+
+.zone-texte 
+{
+    width: 43vw;
+    font-size: 1em;
+    padding-left: 4vw;
+    padding-right: 0vw;
+}
+
+.loupe
+{
+	display: none;
+}
+
+.rechercher
+{
+	padding: 0 4vw 0 4vw;
+    border-radius: 0 2.5vw 2.5vw 0;
+    font-size: 1.05em;
+}
+
+/*Filtres*/
+.filtres
+{
+	display: block;
+	width: auto;
+	margin: 2vw 4vw 4vw 7vw;
+}
+
+.bloc-thematiques 
+{
+    width: auto;
+	justify-content: normal;
+    flex-wrap: wrap;
+	margin-bottom: 1vw;
+}
+
+.titre-filtres h3
+{
+	font-size: 1.15em;
+}
+
+.thematique
+{
+	margin: 3.5vw 12vw 0 0;
+	border-radius: 6vw;
+}
+
+.thematique p
+{
+	font-size: 0.9em;
+}
+
+.txt-filtre
+{
+	padding: 1vw;
+}
+
+.icone 
+{
+    background-color: #DEEBFF;
+    border-radius: 6vw;
+}
+
+.logo-billet
+{
+	box-shadow: 0 0 0 0.9vw #deebff;
+}
+
+.fa-money-bill-wave 
+{
+    padding: 0.95vw;
+}
+
+.logo-bonhomme 
+{
+    box-shadow: 0px 0px 0px 0.5vw #deebff;
+}
+
+.fa-child 
+{
+    padding: 1.45vw 1.8vw 1.45vw 1.8vw;
+}
+
+.logo-coeur 
+{
+    box-shadow: 0 0 0 0.38vw #deebff;
+}
+
+.fa-heart 
+{
+    padding: 1.57vw;
+}
+
+.logo-chien 
+{
+    box-shadow: 0 0 0 0.4vw #deebff;
+}
+
+.fa-dog 
+{
+    padding: 1.55vw;
+}
+
+/*Point information*/
+.information
+{
+	margin: 0 0 5vw 7vw;
+	align-items: center;
+}
+
+.bloc-icone
+{
+	width: auto;
+    padding: 1.3vw 1.7vw 1.3vw 1.7vw;
+    margin-right: 3vw;
+    border-radius: 3vw;
+}
+
+.fa-info
+{
+	font-size: 0.65em;
+}
+
+/*bloc des 2 sections*/
+.bloc-hebergements
+{
+	justify-content: normal;
+	width: 100%;
+	flex-direction: column-reverse;
+}
+
+/*Section "Les plus populaires"*/
+.populaires
+{
+	width: max-content;
+	height: max-content;
+	border-radius: 0;
+}
+
+.header-populaires
+{
+	justify-content: space-between;
+    width: 89vw;
+    margin: 6vw 4vw 6vw 6vw;
+    font-size: 1.2em;
+}
+
+.titre-populaires
+{
+	margin-right: 31vw;
+}
+
+.bloc-cartesp
+{
+	width: 100%;
+	height: auto;
+	margin-bottom: 8vw;
+}
+
+.carte-populaire
+{
+	width: 76vw;
+    height: 29vw;
+    padding: 1vw;
+    margin: 0 11vw 3vw 11vw;
+    border-radius: 4vw;
+    box-shadow: 0.05vw 0.05vw 3vw #d3d3d3;
+}
+
+.carte-populaire img 
+{
+    width: 34vw;
+    height: 29vw;
+	border-radius: 4vw 0 0 4vw;
+}
+
+.bloc-textep 
+{
+    width: 38vw;
+}
+
+.bloc-hebergements h2 
+{
+    font-size: 1.2em;
+}
+
+.bloc-hebergements h3 
+{
+    font-size: 1.1em;
+}
+
+.nom-hotelp 
+{
+    margin: 4vw 5vw 3vw 0;
+}
+
+.bloc-hebergements p 
+{
+    font-size: 0.95em;
+}
+
+.prix-hotelp 
+{
+    margin-bottom: 8vw;
+}
+
+/*Section "Hébergements à Marseille"*/
+.hebergements
+{
+	width: 100vw;
+    margin-bottom: 6vw;
+    border-radius: 0;
+    background-color: white;
+}
+
+.hebergements h2
+{
+	font-size: 1.3em;
+}
+
+.titre-hebergements
+{
+	width: 100vw;
+    margin: 6vw 0 5vw 12vw;
+}
+
+.bloc-cartes
+{
+	display: flex;
+	flex-direction: column;
+	width: 100vw;
+	align-items: center;
+}
+
+.carte-hebergement
+{
+    width: 76vw;
+    height: 39vw;
+    margin: 0 11vw 3vw 11vw;
+    padding: 1vw;
+    border-radius: 4vw;
+    box-shadow: 2vw 2vw 3vw #eaeaea;
+}
+
+.bloc-img
+{
+    width: 76vw;
+    height: 25vw;
+}
+
+.carte-hebergement img 
+{
+    object-fit: cover;
+    width: 76vw;
+    height: 25vw;
+    border-radius: 4vw 4vw 0 0;
+}
+
+.bloc-texte 
+{
+    width: 69vw;
+    margin: 0.8vw 0 0 2vw;
+}
+
+.nom-hotel 
+{
+    margin-bottom: 1.5vw;
+}
+
+.bloc-hebergements p 
+{
+    margin-bottom: 1.5vw;
+}
+
+.footer-hebergements 
+{
+    width: 100%;
+    margin: 2.6vw 0 0 13vw;
+}
+
+/*Section "Activités à Marseille"*/
+.bloc-activites 
+{
+    width: 100vw;
+    height: max-content;
+}
+
+.header-activites 
+{
+    height: auto;
+    margin: 0 0 0 6.5vw;
+}
+
+.bloc-activites h2
+{
+	font-size: 1.8em;
+}
+
+.blocs-activites 
+{
+    display: flex;
+	flex-direction: column;
+    margin: 6vw 4vw 9vw 4vw;
+}
+
+.carte-activite 
+{
+    width: 78vw;
+    height: 39vw;
+    margin: 0 11vw 2vw 8vw;
+	border-radius: 4vw;
+	box-shadow: 1vw 1vw 3vw #eaeaea;
+}
+
+.bloc-img-port 
+{
+    width: 78vw;
+    height: 30vw;
+}
+
+.bloc-img-port
+{
+	width: 78vw;
+    height: 30vw;
+}
+
+.bloc-img-pomegues
+{
+	width: 78vw;
+    height: 30vw;
+}
+
+.bloc-img-frioul
+{
+	width: 78vw;
+    height: 30vw;
+}
+
+.bloc-img-calanques
+{
+	width: 78vw;
+    height: 30vw;
+}
+
+.bloc-img-dame
+{
+	width: 78vw;
+    height: 30vw;
+}
+
+.bloc-img-longchamp
+{
+	width: 78vw;
+    height: 30vw;
+}
+
+.img-activites 
+{
+    border-radius: 4vw 4vw 0 0;
+    width: 78vw;
+    height: 30vw;
+}
+
+.bloc-txt 
+{
+    padding: 3.5vw;
+}
+
+.bloc-activites h3 
+{
+    font-size: 0.9em;
+}
+
+/*Footer*/
+footer
+{
+	height: auto;
+	padding: 5vw 0 3vw 5vw;
+	width: 95vw;
+}
+
+.bloc-footer
+{
+	width: auto;
+    justify-content: normal;
+    flex-direction: column;
+}
+
+.bloc-thematique
+{
+	margin-bottom: 4vw;
+}
+
+.bloc-thematique h3
+{
+	font-size: 1.1em;
+    margin: 2.8vw 0 6vw 0;
+}
+
+.bloc-thematique p
+{
+	font-size: 0.98em;
+    margin-bottom: 3vw;
+}
+}
+
