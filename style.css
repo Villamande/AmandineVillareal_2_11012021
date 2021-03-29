@@ -36,7 +36,7 @@ header
 {
 	background-image: url(images/logo.png);
     width: 7vw;
-    height: 2vw;
+    height: 3vw;
     background-repeat: no-repeat;
     margin-top: 3.55vw;
 }
@@ -115,11 +115,6 @@ nav a:hover
 .zone-recherche
 {
 	display: flex;
-}
-
-.loupe
-{
-	display: none;
 }
 
 .bloc-map
@@ -719,11 +714,23 @@ header
 /*Header du header*/
 .logo
 {
-	background-image: url(images/logo_mobile-1.png);
+	background-image: url(images/logo_mobile.png);
     width: 43vw;
-    height: 10vw;
+    height: 11vw;
     background-repeat: no-repeat;
-    margin: 9vw 0 0 5vw;
+    margin: 7vw 0 0 5vw;
+}
+
+nav
+{
+	width: 109vw;
+    padding: 0;
+}
+
+ul
+{
+	padding: 0;
+	flex-wrap: wrap;
 }
 
 nav li 
@@ -734,21 +741,42 @@ nav li
     margin-left: 0;
 }
 
+.sinscrire
+{
+	order: 1;
+    display: flex;
+    width: 61vw;
+    height: 16vw;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.li-nav-hebergements
+{
+	order: 2;
+    width: 34vw;
+    height: 13vw;
+    display: flex;
+    align-items: center;
+    margin: 9vw 0 0 0;
+    justify-content: center;
+}
+
+.li-nav-activites
+{
+	order: 3;
+    width: 34vw;
+    height: 13vw;
+    display: flex;
+    align-items: center;
+    margin: 9vw 0 0 0;
+    justify-content: center;
+}
+
 nav li:hover
 {
 	border-top: none;
-	border-bottom: 1vw solid #0065FC;
-}
-
-ul
-{
-	flex-wrap: wrap;
-}
-
-.sinscrire
-{
-	margin: 0 0 11vw 28vw;
-    order: 1;
+	border-bottom: 0.85vw solid #0065FC;
 }
 
 .sinscrire:hover
@@ -1189,7 +1217,7 @@ footer
 }
 
 /*Version tablette*/
-@media only screen and (min-device-width : 425px) and (max-device-width : 768px) 
+@media only screen and (min-device-width : 426px) and (max-device-width : 768px) 
 {
 header
 {
@@ -1203,6 +1231,26 @@ header
 	align-items: normal;
 }
 
+.logo
+{
+	background-image: url(images/logo_tablette.png);
+    width: 18vw;
+    height: 7vw;
+    background-repeat: no-repeat;
+    margin: 5vw 0 0 8vw;
+}
+
+nav
+{
+	width: 76vw;
+	padding: 0;
+}
+
+ul
+{
+	padding: 0;
+}
+
 nav li 
 {
 	font-size: 1.1em;
@@ -1211,27 +1259,63 @@ nav li
     margin-left: 0;
 }
 
-nav li:hover
-{
-	border-top: none;
-	border-bottom: 1vw solid #0065FC;
-}
-
-ul
-{
-	flex-wrap: wrap;
-}
-
 .sinscrire
 {
-	margin: 0 0 7vw 67vw;
-    padding: 0;
-    order: -2;
+    order: 1;
+    display: flex;
+    width: 68vw;
+    height: 11vw;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 1.2em;
 }
 
 .sinscrire:hover
 {
 	border-bottom: 1vw solid white;
+}
+
+.li-nav-hebergements
+{
+	order: 2;
+    width: 37vw;
+    height: 9vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2vw 0 0 0;
+}
+
+.li-nav-activites
+{
+	order: 3;
+    width: 37vw;
+    height: 9vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2vw 0 0 0;
+}
+
+nav li:hover
+{
+	border-top: none;
+	border-bottom: 0.5vw solid #0065FC;
+}
+
+.nav-hebergements
+{
+	font-size: 1.2em;
+}
+
+.nav-activites
+{
+	font-size: 1.2em;
+}
+
+ul
+{
+	flex-wrap: wrap;
 }
 
 /*Présentation*/
@@ -1674,8 +1758,17 @@ footer
 }
 }
 
+/*Version desktop*/
+@media only screen and (min-device-width : 769px) and (max-device-width : 1440px) 
+{
+.loupe
+{
+	display: none;
+}
+}
+
 /*Version HD*/
-@media only screen and (min-device-width : 1440px) and (max-device-width : 2560px) 
+@media only screen and (min-device-width : 1441px) and (max-device-width : 2560px) 
 {
 /*Header du header*/
 .logo
@@ -1755,9 +1848,9 @@ button
     font-size: 2em;
 }
 
-.fa-child 
+.fa-heart 
 {
-    padding: 1.1vw 1.3vw 1.05vw 1.3vw;
+    padding: 1.1vw;
     font-size: 2em;
 }
 
