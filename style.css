@@ -290,9 +290,9 @@ button
 
 /*Main*/
 /*bloc des 2 sections*/
-.cadre-blocs
+main
 {
-	width: 100%;
+	width: 100vw;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -732,6 +732,12 @@ header
 }
 
 /*Header du header*/
+.header-du-header
+{
+	width: 105vw;
+	height: 40vw;
+}
+
 .logo
 {
 	background-image: url(images/logo_mobile.png);
@@ -743,8 +749,8 @@ header
 
 nav
 {
-	width: 109vw;
-    padding: 0;
+	position: absolute;
+    width: 105vw;
 }
 
 ul
@@ -765,31 +771,32 @@ nav li
 {
 	order: 1;
     display: flex;
-    width: 61vw;
-    height: 16vw;
+    width: 98vw;
+    height: 17vw;
     justify-content: flex-end;
     align-items: flex-end;
+    font-size: 1.1em;
 }
 
 .li-nav-hebergements
 {
 	order: 2;
-    width: 34vw;
+    width: 52.5vw;
     height: 13vw;
     display: flex;
     align-items: center;
-    margin: 9vw 0 0 0;
+    margin-top: 7vw;
     justify-content: center;
 }
 
 .li-nav-activites
 {
 	order: 3;
-    width: 34vw;
+    width: 52.5vw;
     height: 13vw;
     display: flex;
     align-items: center;
-    margin: 9vw 0 0 0;
+    margin-top: 7vw;
     justify-content: center;
 }
 
@@ -859,7 +866,6 @@ nav li:hover
 
 .loupe
 {
-	padding: 0vw 4vw 0vw 0vw;
     border-radius: 0 4vw 4vw 0;
 }
 
@@ -924,7 +930,7 @@ nav li:hover
 
 .fa-child 
 {
-    padding: 3.1vw 3.8vw 3.1vw 3.8vw;
+    padding: 2.8vw 3.6vw 2.8vw 3.6vw
 }
 
 .logo-coeur 
@@ -951,14 +957,20 @@ nav li:hover
 .information
 {
 	margin: 0 4vw 8vw 4vw;
+	align-items: normal;
 }
 
 .bloc-icone
 {
 	width: auto;
-	padding: 1vw 1.7vw 1vw 1.7vw;
+	padding: 1.8vw 2.5vw 1.8vw 2.5vw;
 	margin-right: 3vw;
 	border-radius: 3vw;
+}
+
+.fa-info 
+{
+    font-size: 0.7em;
 }
 
 /*bloc des 2 sections*/
@@ -1061,7 +1073,7 @@ nav li:hover
 .titre-hebergements
 {
 	width: 100%;
-	margin: 9vw 0 7vw 8vw;
+	margin: 9vw 0 5vw 8vw;
 }
 
 .bloc-cartes
@@ -1223,6 +1235,11 @@ footer
 	margin-bottom: 6vw;
 }
 
+.assistance
+{
+	margin-bottom: 0;
+}
+
 .bloc-thematique h3
 {
 	font-size: 1.1em;
@@ -1241,7 +1258,7 @@ footer
 {
 header
 {
-	width: auto;
+	width: 89vw;
 	margin-left: 0;
 }
 
@@ -1249,6 +1266,8 @@ header
 .header-du-header
 {
 	align-items: normal;
+	width: 89vw;
+    height: 27vw;
 }
 
 .logo
@@ -1262,8 +1281,8 @@ header
 
 nav
 {
-	width: 76vw;
-	padding: 0;
+	position: absolute;
+	width: 101.5vw;
 }
 
 ul
@@ -1283,11 +1302,11 @@ nav li
 {
     order: 1;
     display: flex;
-    width: 68vw;
-    height: 11vw;
+    width: 83vw;
+    height: 4vw;
     justify-content: flex-end;
-    align-items: flex-end;
     font-size: 1.2em;
+    padding-top: 8vw;
 }
 
 .sinscrire:hover
@@ -1298,23 +1317,23 @@ nav li
 .li-nav-hebergements
 {
 	order: 2;
-    width: 37vw;
+    width: 44.5vw;
     height: 9vw;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 2vw 0 0 0;
+    margin-top: 2vw;
 }
 
 .li-nav-activites
 {
 	order: 3;
-    width: 37vw;
+    width: 44.5vw;
     height: 9vw;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 2vw 0 0 0;
+    margin-top: 2vw;
 }
 
 nav li:hover
@@ -1339,9 +1358,10 @@ ul
 }
 
 /*Présentation*/
-.presentation
+.presentation 
 {
-	margin: 4vw 4vw 4vw 7vw;
+    margin: 1vw 0 3vw 7vw;
+    width: 81vw;
 }
 
 .titre-presentation-h2
@@ -1396,7 +1416,7 @@ ul
 .filtres
 {
 	display: block;
-	width: auto;
+	width: 75vw;
 	margin: 2vw 4vw 4vw 7vw;
 }
 
@@ -1437,7 +1457,7 @@ ul
 
 .logo-billet
 {
-	box-shadow: 0 0 0 0.9vw #deebff;
+	box-shadow: 0 0 0 1vw #deebff;
 }
 
 .fa-money-bill-wave 
@@ -1447,7 +1467,7 @@ ul
 
 .logo-bonhomme 
 {
-    box-shadow: 0px 0px 0px 0.5vw #deebff;
+    box-shadow: 0px 0px 0px 0.55vw #deebff;
 }
 
 .fa-child 
@@ -1457,7 +1477,7 @@ ul
 
 .logo-coeur 
 {
-    box-shadow: 0 0 0 0.38vw #deebff;
+    box-shadow: 0 0 0 0.48vw #deebff;
 }
 
 .fa-heart 
@@ -1467,7 +1487,7 @@ ul
 
 .logo-chien 
 {
-    box-shadow: 0 0 0 0.4vw #deebff;
+    box-shadow: 0 0 0 0.45vw #deebff;
 }
 
 .fa-dog 
@@ -1478,6 +1498,7 @@ ul
 /*Point information*/
 .information
 {
+	width: 75vw;
 	margin: 0 0 5vw 7vw;
 	align-items: center;
 }
@@ -1495,6 +1516,17 @@ ul
 	font-size: 0.65em;
 }
 
+.information p 
+{
+    font-size: 1.15em;
+}
+
+/*Corps de la page*/
+main 
+{
+    width: 89vw;
+}
+
 /*bloc des 2 sections*/
 .bloc-hebergements
 {
@@ -1506,22 +1538,22 @@ ul
 /*Section "Les plus populaires"*/
 .populaires
 {
-	width: max-content;
-	height: max-content;
+	width: 89vw;
+    height: 120vw;
 	border-radius: 0;
 }
 
 .header-populaires
 {
 	justify-content: space-between;
-    width: 89vw;
-    margin: 6vw 4vw 6vw 6vw;
+    width: 77vw;
+    margin: 6vw;
     font-size: 1.2em;
 }
 
 .titre-populaires
 {
-	margin-right: 31vw;
+	margin-right: 10vw;
 }
 
 .bloc-cartesp
@@ -1536,7 +1568,7 @@ ul
 	width: 76vw;
     height: 29vw;
     padding: 1vw;
-    margin: 0 11vw 3vw 11vw;
+    margin: 0 5.4vw 3vw 5.4vw;
     border-radius: 4vw;
     box-shadow: 0.05vw 0.05vw 3vw #d3d3d3;
 }
@@ -1581,8 +1613,8 @@ ul
 /*Section "Hébergements à Marseille"*/
 .hebergements
 {
-	width: 100vw;
-    margin-bottom: 6vw;
+	width: 89vw;
+    margin-bottom: 7vw;
     border-radius: 0;
     background-color: white;
 }
@@ -1594,15 +1626,15 @@ ul
 
 .titre-hebergements
 {
-	width: 100vw;
-    margin: 6vw 0 5vw 12vw;
+	width: 77vw;
+    margin: 6vw 0 3vw 0vw;
 }
 
 .bloc-cartes
 {
 	display: flex;
 	flex-direction: column;
-	width: 100vw;
+	width: 89vw;
 	align-items: center;
 }
 
@@ -1610,7 +1642,7 @@ ul
 {
     width: 76vw;
     height: 39vw;
-    margin: 0 11vw 3vw 11vw;
+    margin: 0 5.5vw 3vw 5.5vw;
     padding: 1vw;
     border-radius: 4vw;
     box-shadow: 2vw 2vw 3vw #eaeaea;
@@ -1648,21 +1680,26 @@ ul
 
 .footer-hebergements 
 {
-    width: 100%;
-    margin: 2.6vw 0 0 13vw;
+    width: 79vw;
+    margin-top: 2.6vw;
 }
 
 /*Section "Activités à Marseille"*/
 .bloc-activites 
-{
-    width: 100vw;
+{		
+	width: 89vw;
     height: max-content;
+}
+
+.activites
+{
+	width: 89vw;
 }
 
 .header-activites 
 {
     height: auto;
-    margin: 0 0 0 6.5vw;
+    margin: 0 0 0 5vw;
 }
 
 .bloc-activites h2
@@ -1674,14 +1711,15 @@ ul
 {
     display: flex;
 	flex-direction: column;
-    margin: 6vw 4vw 9vw 4vw;
+    margin: 4.5vw 0 7vw 0;
+	width: 89vw;
 }
 
 .carte-activite 
 {
     width: 78vw;
     height: 39vw;
-    margin: 0 11vw 2vw 8vw;
+    margin: 0 5.5vw 2vw 5.5vw;
 	border-radius: 4vw;
 	box-shadow: 1vw 1vw 3vw #eaeaea;
 }
@@ -1737,7 +1775,7 @@ ul
 
 .bloc-txt 
 {
-    padding: 3.5vw;
+    padding: 3.2vw 3.5vw 3.5vw 3.5vw;
 }
 
 .bloc-activites h3 
@@ -1748,9 +1786,9 @@ ul
 /*Footer*/
 footer
 {
-	height: auto;
-	padding: 5vw 0 3vw 5vw;
-	width: 95vw;
+    height: 72vw;
+    padding: 5vw 0 0 1vw;
+    width: 83.5vw;
 }
 
 .bloc-footer
@@ -1762,13 +1800,14 @@ footer
 
 .bloc-thematique
 {
-	margin-bottom: 4vw;
+	margin-bottom: 2vw;
+    width: 70vw;
 }
 
 .bloc-thematique h3
 {
 	font-size: 1.1em;
-    margin: 2.8vw 0 6vw 0;
+    margin: 2.8vw 0 3.5vw 0;
 }
 
 .bloc-thematique p
