@@ -1046,7 +1046,7 @@ nav li:hover
 
 .bloc-img
 {
-    width: 90vw;
+  width: 90vw;
 	height: 30vw;
 }
 
@@ -1060,18 +1060,18 @@ nav li:hover
 
 .bloc-texte 
 {
-    width: 85vw;
+  width: 85vw;
 	margin: 2.5vw 0 0 3vw;
 }
 
 .nom-hotel 
 {
-    margin: 0 0 1.5% 0;
+  margin: 0 0 1.5% 0;
 }
 
 .prix-hotel 
 {
-    margin-bottom: 1%;
+  margin-bottom: 1%;
 }
 
 .bloc-hebergements p 
@@ -1186,6 +1186,11 @@ footer
 	margin-bottom: 0;
 }
 
+.assistance
+{
+	margin-bottom: 0;
+}
+
 .bloc-thematique h3
 {
 	font-size: 1em;
@@ -1280,7 +1285,7 @@ nav li:hover
 }
 
 /*Présentation*/
-.presentation
+.presentation 
 {
 	margin: 3% 4% 3% 4%;
 }
@@ -1376,7 +1381,7 @@ nav li:hover
 
 .logo-billet
 {
-	box-shadow: 0 0 0 0.9vw #deebff;
+	box-shadow: 0 0 0 1vw #deebff;
 }
 
 .fa-money-bill-wave 
@@ -1627,6 +1632,11 @@ nav li:hover
 .bloc-activites 
 {
     padding: 0 8%;
+}
+
+.activites
+{
+	width: 89vw;
 }
 
 .header-activites 
