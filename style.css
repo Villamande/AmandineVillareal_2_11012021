@@ -21,8 +21,6 @@ header
 {
 	display: flex;
 	flex-direction: column;
-	width: 90.5vw;
-    margin-left: 4.7vw;
 }
 
 /*Header du header*/
@@ -30,14 +28,14 @@ header
 {
 	display: flex;
 	justify-content: space-between;
+	margin: 0 3vw;
 }
 
 .logo
 {
 	background-image: url(images/logo.png);
-    width: 7vw;
-    height: 3vw;
     background-repeat: no-repeat;
+	padding: 1.2vw 3.6vw;
     margin-top: 3.55vw;
 }
 
@@ -89,16 +87,17 @@ nav a:hover
 {
 	display: flex;
 	flex-direction: column;
-}
-
-.titre-presentation-h2
-{
-	font-size: 1.2em;
+	margin: 0 3vw;
 }
 
 .titre-presentation
 {
 	margin-top: 2vw;
+}
+
+.titre-presentation-h2
+{
+	font-size: 1.2em;
 }
 
 .txt-presentation
@@ -150,9 +149,8 @@ button
 .filtres
 {
 	display: flex;
-	width: 66vw;
 	justify-content: space-between;
-	margin: 2vw 0 2.1vw 0;
+	margin: 2vw 40vw 2.1vw 3vw;
 }
 
 .titre-filtres
@@ -176,13 +174,13 @@ button
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	width: 60vw;
 }
 
 .thematique
 {
 	display: flex;
 	align-items: center;
+	margin-left: 2vw;
 	border: solid 0.1em #CBCBCB;
 	border-radius: 2vw;
 	font-weight: bold;
@@ -214,47 +212,47 @@ button
 }
 
 /*Filtre "Economique"*/
-.fa-money-bill-wave
-{
-	padding: 0.85vw;
-}
-
 .logo-billet
 {
 	box-shadow: 0 0 0 0.15vw #DEEBFF;
 }
 
-/*Filtre "Familial"*/
-.fa-child
-{
-	padding: 0.9vw 1.15vw 0.9vw 1.15vw;
-}
-
-.logo-bonhomme
-{
-	box-shadow: 0px 0px 0px 0.12vw #DEEBFF;
-}
-
-/*Filtre "Romantique"*/
-.fa-heart
+.fa-money-bill-wave
 {
 	padding: 0.85vw;
 }
 
+/*Filtre "Familial"*/
+.logo-bonhomme
+{
+	box-shadow: 0px 0px 0px 0.18vw #DEEBFF;
+}
+
+.fa-child
+{
+	padding: 0.9vw 1.08vw 0.9vw 1.08vw;
+}
+
+/*Filtre "Romantique"*/
 .logo-coeur
 {
 	box-shadow: 0 0 0 0.2vw #DEEBFF;
 }
 
-/*Filtre "Animaux autorisés"*/
-.fa-dog
+.fa-heart
 {
-	padding: 0.9vw;
+	padding: 0.85vw;
 }
 
+/*Filtre "Animaux autorisés"*/
 .logo-chien
 {
 	box-shadow: 0 0 0 0.15vw #DEEBFF;
+}
+
+.fa-dog
+{
+	padding: 0.9vw;
 }
 
 /*Point infortmation*/
@@ -263,6 +261,7 @@ button
 	display: flex;
 	align-items: center;
 	margin-bottom: 2vw;
+	margin: 0 3vw 2vw 3vw;
 }
 
 .bloc-icone
@@ -282,37 +281,38 @@ button
 	font-size: 0.6em;
 }
 
+.txt-information
+{
+	margin: 0;
+}
+
 .information p
 {
 	font-size: 1em;
-	margin: 0;
 }
 
 /*Main*/
 /*bloc des 2 sections*/
 main
 {
-	width: 100vw;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
-.bloc-hebergements, .bloc-activites
+.bloc-hebergements
 {
 	display: flex;
-	justify-content: space-between;
-	width: 90.5vw;
 }
 
 .bloc-hebergements h2
 {
-	font-size: 1.17em;
+	font-size: 1.3em;
 }
 
 .bloc-hebergements h3
 {
-	font-size: 0.87em;
+	font-size: 0.9em;
 }
 
 .bloc-hebergements p
@@ -323,26 +323,23 @@ main
 /*section "Hébergements à Marseille"*/
 .hebergements
 {
-	width: 59vw;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+	padding: 0 3vw;
+	margin-right: 3vw;
 	border-radius: 2vw;
 	background-color: #F2F2F2;
 }
 
 .titre-hebergements
 {
-	width: 52.5vw;
 	margin: 2.5vw 0 1.5vw 0;
 }
 
 .bloc-cartes
 {
 	display: grid;
-	grid-template-columns: 16vw 16vw 16vw;
+	grid-template-columns: 17vw 17vw 17vw;
 	grid-template-rows: 13.1vw 13.1vw;
-	grid-column-gap: 2.4vw;
+	grid-column-gap: 2.8vw;
 	grid-row-gap: 2.5vw;
 }
 
@@ -353,7 +350,7 @@ main
 	align-items: center;
 	padding: 0.3vw;
 	background-color: white;
-	border-radius: 8%;
+	border-radius: 1vw;
 	box-shadow: 0.2vw 0.1vw 0.5vw #D3D3D3;
 }
 
@@ -369,15 +366,14 @@ main
 
 .bloc-img
 {
-	width: 15.35vw;
-	height: 7.5vw;
+	height: 7vw;
 }
 
 .carte-hebergement img
 {
 	object-fit: cover;
-	width: 15.35vw;
-	height: 7.5vw;
+	width: 16.5vw;
+	height: 7vw;
 	border-radius: 1vw 1vw 0 0;
 }
 
@@ -388,19 +384,19 @@ main
 
 .bloc-texte
 {
-	width: 14.5vw;
+	width: 15vw;
 	display: flex;
 	flex-direction: column;
 }
 
 .nom-hotel
 {
-	margin: 0.5vw 0 0.5vw 0.2vw;
+	margin: 0.2vw 0vw 0.3vw 0;
 }
 
 .prix-hotel
 {
-	margin: 0 0 0.5vw 0.2vw;
+	margin-bottom: 0.6vw;
 }
 
 .quatre-etoiles
@@ -432,18 +428,13 @@ main
 
 .footer-hebergements
 {
-	width: 52.5vw;
-	margin-top: 2.6vw;
+	margin-top: 2.2vw;
 }
 
 /*section "Les plus populaires*/
 .populaires
 {
-	width: 28.5vw;
-	height: 40.4vw;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+	padding: 0 2.5vw 0 2.5vw;
 	border-radius: 2vw;
 	background-color: #F2F2F2;
 }
@@ -453,26 +444,19 @@ main
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	width: 22.6vw;
 	margin: 2.5vw 0 1.5vw 0;
 }
 
-.bloc-cartesp
+.fa-chart-line
 {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	width: 22.6vw;
-	height: 32.8vw;
+	font-size: 1.2em;
 }
 
 .carte-populaire
 {
 	display: flex;
-	width: 22vw;
-	height: 9vw;
 	padding: 0.3vw;
-	justify-content: space-between;
+	margin-bottom: 1.7vw;
 	background-color: white;
 	border-radius: 1vw;
 	box-shadow: 0.2vw 0.1vw 0.5vw #D3D3D3;
@@ -481,6 +465,12 @@ main
 .carte-populaire:active
 {
 	background-color: #ECECEC;
+}
+
+.bloc-imgp
+{
+	width: 9vw;
+	height: 9.04vw;
 }
 
 .carte-populaire em
@@ -498,17 +488,19 @@ main
 
 .bloc-textep
 {
-	width: 12vw;
+	width: 13vw;
+	margin-left: 0.5vw;
 }
 
 .nom-hotelp
 {
-	margin: 1vw 2vw 0.5vw 0;
+	padding-right: 2vw;
+	margin: 1vw 0 0.5vw 0;
 }
 
 .prix-hotelp
 {
-	margin-bottom: 3vw;
+	margin-bottom: 2vw;
 }
 
 .etoilep
@@ -526,39 +518,28 @@ main
 }
 
 /*Activités à Marseille*/
-.bloc-activites
-{
-	display: flex;
-	justify-content: space-between;
-	width: 90.5vw;
-	height: 39.5vw;
-}
-
 .activites
 {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;	
+    margin-bottom: 4vw;
 }
 
 .header-activites
 {
-	display:flex;
-	height: 3vw;
-	font-size: 0.75em;
+	margin: 3.5vw 0 1.5vw 0;
 }
 
 .activites h2
 {
 	margin: 0;
+	font-size: 1.2em;
 }
 
 .blocs-activites
 {
 	display: grid;
-	grid-template-columns: 20.6vw 20.6vw 20.6vw 20.6vw;	
+	grid-template-columns: 21vw 21vw 21vw 21vw;	
 	grid-template-rows: 4.25vw 5.3vw 0.8vw 4.25vw 3.3vw;
-	grid-column-gap: 2.68vw;
+	grid-column-gap: 3.2vw;
 	grid-row-gap: 2.72vw;
 	grid-template-areas: 
 	"bloc-port bloc-pomegues bloc-calanques bloc-dame"
@@ -583,7 +564,7 @@ main
 
 .bloc-txt
 {
-	padding-top: 0.9vw;
+	padding-top: 0.8vw;
 	padding-left: 1vw;
 }
 
@@ -697,107 +678,97 @@ main
 /*Footer*/
 footer
 {
-	width: 100vw;
-	height: 13vw;
+	padding: 3vw 0 3vw 3vw;
 	background-color: #F2F2F2;
 }
 
 .bloc-footer
 {
 	display: flex;
-	width: 69vw;
 	justify-content: space-between;
-	margin: 0 0 0 4.8vw;
+	margin-right: 26vw;
 }
 
 .bloc-thematique h3
 {
 	font-size: 0.95em;
-	margin: 2.8vw 0 1.3vw 0;
+	margin: 0 0 1.5vw 0;
 }
 
 .bloc-thematique p
 {
 	font-size: 0.85em;
-	margin: 0 0 0.7vw 0;
+	margin-bottom: 0.7vw;
 }
 
 /*Version mobile*/
-@media only screen and (min-device-width : 320px) and (max-device-width : 425px)
+@media only screen and (min-device-width: 320px) and (max-device-width: 375px)
 {
-header
-{
-	width: auto;
-	margin-left: 0;
-}
-
+/*Header*/
 /*Header du header*/
 .header-du-header
 {
-	width: 105vw;
-	height: 40vw;
+	width: 100%;
+	padding: 0 0 23% 0;
+	margin: 0;
 }
 
 .logo
 {
 	background-image: url(images/logo_mobile.png);
-    width: 43vw;
-    height: 11vw;
     background-repeat: no-repeat;
-    margin: 7vw 0 0 5vw;
+    margin: 8.5% 0 0 3%;
+	padding: 5% 14%;
 }
 
 nav
 {
 	position: absolute;
-    width: 105vw;
+	width: 99%;
 }
 
-ul
+nav ul
 {
-	padding: 0;
 	flex-wrap: wrap;
+	padding: 0;
+	margin: 0;
 }
 
 nav li 
 {
+	margin-left: 0;
 	font-size: 1.1em;
 	border-bottom: 1vw solid white;
-	padding-top: 0;
-    margin-left: 0;
 }
 
 .sinscrire
 {
 	order: 1;
-    display: flex;
-    width: 98vw;
-    height: 17vw;
-    justify-content: flex-end;
-    align-items: flex-end;
     font-size: 1.1em;
+	padding: 13% 0 2% 73%;
+}
+
+.sinscrire:hover
+{
+	border-bottom: 1vw solid white;
 }
 
 .li-nav-hebergements
 {
 	order: 2;
-    width: 52.5vw;
-    height: 13vw;
-    display: flex;
-    align-items: center;
-    margin-top: 7vw;
-    justify-content: center;
+	padding: 7% 0;
+	width: 50%;
+	display: flex;
+	justify-content: center;
 }
 
 .li-nav-activites
 {
 	order: 3;
-    width: 52.5vw;
-    height: 13vw;
-    display: flex;
-    align-items: center;
-    margin-top: 7vw;
-    justify-content: center;
+	padding: 7% 0;
+	width: 50%;
+	display: flex;
+	justify-content: center;
 }
 
 nav li:hover
@@ -806,37 +777,26 @@ nav li:hover
 	border-bottom: 0.85vw solid #0065FC;
 }
 
-.sinscrire:hover
-{
-	border-bottom: 1vw solid white;
-}
-
-.nav-hebergements
-{
-	margin: 0;
-	order: 2;
-}
-
-.nav-activites
-{
-	margin: 0;
-	order: 3;
-}
 /*Présentation*/
 .presentation
 {
-	margin: 4vw 4vw 4vw 4vw;
+	margin: 3% 3% 3% 3%;
+}
+
+.titre-presentation 
+{
+    margin-top: 2%;
 }
 
 .titre-presentation-h2
 {
 	font-size: 1.3em;
-	margin: 0 5vw 1.5vw 0;
+	margin: 0 5% 2% 0;
 }
 
 .txt-presentation 
 {
-    margin-bottom: 7vw;
+    margin-bottom: 7%;
 }
 
 .presentation p
@@ -847,16 +807,15 @@ nav li:hover
 /*Zone de recherche*/
 .bloc-map
 {
-	padding: 4.5vw 4vw 4vw 4vw;
-    border-radius: 4vw 0 0 4vw;
+	padding: 4.5% 5.5% 4% 5.5%;
+	border-radius: 3vw 0 0 3vw;
 }
 
 .zone-texte 
 {
-    width: 53vw;
-	font-size: 1em;
-	padding-left: 4vw;
-	padding-right: 7vw;
+    width: 67%;
+	font-size: 1.1em;
+	padding-left: 7%;
 }
 
 .rechercher
@@ -879,8 +838,7 @@ nav li:hover
 .filtres
 {
 	display: block;
-	width: auto;
-	margin: 2vw 4vw 4vw 4vw;
+	margin: 2% 3% 8% 3%;
 }
 
 .bloc-thematiques 
@@ -888,7 +846,6 @@ nav li:hover
     width: auto;
 	justify-content: normal;
     flex-wrap: wrap;
-	margin-bottom: 4vw;
 }
 
 .thematique
@@ -925,7 +882,7 @@ nav li:hover
 
 .logo-bonhomme 
 {
-    box-shadow: 0px 0px 0px 0.9vw #deebff;
+    box-shadow: 0 0 0 0.9vw #deebff;
 }
 
 .fa-child 
@@ -956,15 +913,15 @@ nav li:hover
 /*Point information*/
 .information
 {
-	margin: 0 4vw 8vw 4vw;
+	margin: 0 3% 8% 3%;
 	align-items: normal;
 }
 
 .bloc-icone
 {
 	width: auto;
-	padding: 1.8vw 2.5vw 1.8vw 2.5vw;
-	margin-right: 3vw;
+	padding: 1.8% 2.8% 2.5% 2.8%;
+	margin-right: 3%;
 	border-radius: 3vw;
 }
 
@@ -973,10 +930,10 @@ nav li:hover
     font-size: 0.7em;
 }
 
+/*Corps de la page*/
 /*bloc des 2 sections*/
 .bloc-hebergements
 {
-	justify-content: normal;
 	width: 100%;
 	flex-direction: column-reverse;
 }
@@ -984,56 +941,54 @@ nav li:hover
 /*Section "Les plus populaires"*/
 .populaires
 {
-	width: 100vw;
-	height: max-content;
 	border-radius: 0;
 }
 
 .header-populaires
 {
-	justify-content: normal;
-    width: auto;
-    margin: 9vw 4vw 6vw 4vw;
-    font-size: 1.2em;
+    margin: 12% 0 10% 0;
 }
 
 .titre-populaires
 {
-	margin-right: 31vw;
+	margin-right: 36%;
 }
 
 .bloc-cartesp
 {
-	width: 100%;
-	height: auto;
-	margin-bottom: 8vw;
+	margin-bottom: 7%;
 }
 
 .carte-populaire
 {
-	width: auto;
-    height: 37vw;
-	padding: 1.5vw;
-	margin: 0 4vw 3vw 4vw;
+	padding: 1.5%;
+	margin-bottom: 4%;
     border-radius: 5vw;
 	box-shadow: 0.05vw 0.05vw 3vw #d3d3d3;
 }
 
+.bloc-imgp 
+{
+    width: 37vw;
+	height: 37vw;
+}
+
 .carte-populaire img 
 {
-    width: 34vw;
-    height: 37vw;
+    width: 100%;
+	height: 100%;
 	border-radius: 5vw 0 0 5vw;
 }
 
 .bloc-textep 
 {
-    width: 49vw;
+    width: 46%;
+	margin-left: 6%;
 }
 
 .bloc-hebergements h2 
 {
-    font-size: 1.1em;
+    font-size: 1.3em;
 }
 
 .bloc-hebergements h3 
@@ -1043,24 +998,24 @@ nav li:hover
 
 .nom-hotelp 
 {
-    margin: 4vw 2vw 2vw 0;
+    margin: 6% 0 6% 0;
 }
 
 .bloc-hebergements p 
 {
+	margin-bottom: 0;
     font-size: 0.85em;
 }
 
 .prix-hotelp 
 {
-    margin-bottom: 12vw;
+    margin-bottom: 20%;
 }
 
 /*Section "Hébergements à Marseille"*/
 .hebergements
 {
-	width: 100%;
-	margin-bottom: 8vw;
+	margin: 0;
 	border-radius: 0;
     background-color: white;
 }
@@ -1072,51 +1027,51 @@ nav li:hover
 
 .titre-hebergements
 {
-	width: 100%;
-	margin: 9vw 0 5vw 8vw;
+	margin: 10% 0 5% 0;
 }
 
 .bloc-cartes
 {
 	display: flex;
 	flex-direction: column;
-	width: 100%;
 	align-items: center;
 }
 
 .carte-hebergement
 {
-    width: 87vw;
-    height: 50vw;
-	margin: 0 4vw 1.2vw 4vw;
-	padding: 1.5vw;
+	padding: 1.5%;
 	border-radius: 5vw;
 	box-shadow: 1vw 1vw 3vw #eaeaea;
 }
 
 .bloc-img
 {
-    width: 87vw;
-    height: 30vw;
+  width: 90vw;
+	height: 30vw;
 }
 
 .carte-hebergement img 
 {
     object-fit: cover;
-    width: 87vw;
-    height: 30vw;
+    width: 100%;
+    height: 100%;
     border-radius: 5vw 5vw 0 0;
 }
 
 .bloc-texte 
 {
-    width: 85vw;
+  width: 85vw;
 	margin: 2.5vw 0 0 3vw;
 }
 
 .nom-hotel 
 {
-    margin-bottom: 1.5vw;
+  margin: 0 0 1.5% 0;
+}
+
+.prix-hotel 
+{
+  margin-bottom: 1%;
 }
 
 .bloc-hebergements p 
@@ -1126,34 +1081,31 @@ nav li:hover
 
 .footer-hebergements 
 {
-    width: 100%;
-    margin: 2.6vw 0 0 9vw;
+    margin: 8% 0 0 2.5%;
 }
 
 /*Section "Activités à Marseille"*/
 .bloc-activites 
 {
-    width: auto;
-    height: max-content;
+    padding: 0 3%;
 }
 
 .header-activites 
 {
-    height: auto;
-    font-size: 0.85em;
-    margin-left: 4vw;
+    margin-top: 12%;
 }
 
 .bloc-activites h2
 {
-	font-size: 1.45em;
+	font-size: 1.3em;
 }
 
 .blocs-activites 
 {
     display: flex;
 	flex-direction: column;
-    margin: 7vw 4vw 9vw 4vw;
+	margin: 9% 0 9% 0;
+	align-items: center;
 }
 
 .carte-activite 
@@ -1161,8 +1113,7 @@ nav li:hover
     border-radius: 5vw;
     box-shadow: 1vw 1vw 3vw #eaeaea;
     width: 91vw;
-    height: 50vw;
-    margin-bottom: 5vw;
+    margin-bottom: 4%;
 }
 
 .bloc-img-port 
@@ -1173,11 +1124,6 @@ nav li:hover
 .img-activites 
 {
     border-radius: 5vw 5vw 0 0;
-}
-
-.bloc-img-port
-{
-	height: 36vw;
 }
 
 .bloc-img-pomegues
@@ -1207,7 +1153,7 @@ nav li:hover
 
 .bloc-txt 
 {
-    padding: 4.5vw;
+    padding: 4.5%;
 }
 
 .bloc-activites h3 
@@ -1219,8 +1165,8 @@ nav li:hover
 footer
 {
 	height: max-content;
-	padding: 7vw 0 9vw 7vw;
-	width: 93vw;
+	padding: 7% 0 13% 7%;
+	width: 93%;
 }
 
 .bloc-footer
@@ -1232,7 +1178,12 @@ footer
 
 .bloc-thematique
 {
-	margin-bottom: 6vw;
+	margin-bottom: 6%;
+}
+
+.assistance
+{
+	margin-bottom: 0;
 }
 
 .assistance
@@ -1242,71 +1193,66 @@ footer
 
 .bloc-thematique h3
 {
-	font-size: 1.1em;
-    margin: 2.8vw 0 6vw 0;
+	font-size: 1em;
+    margin: 3.5% 0 7% 0;
 }
 
 .bloc-thematique p
 {
-	font-size: 0.98em;
-    margin-bottom: 3vw;
+	font-size: 0.9em;
+    margin-bottom: 4%;
 }
 }
 
 /*Version tablette*/
-@media only screen and (min-device-width : 426px) and (max-device-width : 768px) 
+@media only screen and (min-device-width: 376px) and (max-device-width: 768px) 
 {
-header
-{
-	width: 89vw;
-	margin-left: 0;
-}
-
+/*Header*/
 /*Header du header*/
 .header-du-header
 {
-	align-items: normal;
-	width: 89vw;
-    height: 27vw;
+	width: 100%;
+	padding: 0 0 14% 0;
+	margin: 0;
 }
 
 .logo
 {
 	background-image: url(images/logo_tablette.png);
-    width: 18vw;
-    height: 7vw;
     background-repeat: no-repeat;
-    margin: 5vw 0 0 8vw;
+    margin: 6% 0 0 4%;
+	padding: 4% 9%;
 }
 
 nav
 {
 	position: absolute;
-	width: 101.5vw;
+	width: 100%;
 }
 
-ul
+nav ul
 {
+	width: 100%;
+	flex-wrap: wrap;
 	padding: 0;
 }
 
 nav li 
 {
-	font-size: 1.1em;
-	border-bottom: 1vw solid white;
-	padding-top: 0;
-    margin-left: 0;
+	margin-left: 0;
+	border-bottom: 0.8vw solid white;
+}
+
+nav a
+{
+	font-size: 1.2em;
 }
 
 .sinscrire
 {
-    order: 1;
-    display: flex;
-    width: 83vw;
-    height: 4vw;
-    justify-content: flex-end;
-    font-size: 1.2em;
-    padding-top: 8vw;
+	order: 1;
+	font-size: 1.2em;
+	padding: 10% 0 2% 80%;
 }
 
 .sinscrire:hover
@@ -1317,62 +1263,42 @@ nav li
 .li-nav-hebergements
 {
 	order: 2;
-    width: 44.5vw;
-    height: 9vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 2vw;
+	padding: 4% 0;
+	width: 50%;
+	display: flex;
+	justify-content: center;
 }
 
 .li-nav-activites
 {
 	order: 3;
-    width: 44.5vw;
-    height: 9vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 2vw;
+	padding: 4% 0;
+	width: 50%;
+	display: flex;
+	justify-content: center;
 }
 
 nav li:hover
 {
 	border-top: none;
-	border-bottom: 0.5vw solid #0065FC;
-}
-
-.nav-hebergements
-{
-	font-size: 1.2em;
-}
-
-.nav-activites
-{
-	font-size: 1.2em;
-}
-
-ul
-{
-	flex-wrap: wrap;
+	border-bottom: 0.8vw solid #0065FC;
 }
 
 /*Présentation*/
 .presentation 
 {
-    margin: 1vw 0 3vw 7vw;
-    width: 81vw;
+	margin: 3% 4% 3% 4%;
 }
 
 .titre-presentation-h2
 {
 	font-size: 1.3em;
-    margin: 0 5vw 1.3vw 0;
+	margin-bottom: 2%;
 }
 
 .txt-presentation 
 {
-    margin-bottom: 5vw;
+    margin-bottom: 5%;
 }
 
 .presentation p
@@ -1383,7 +1309,7 @@ ul
 /*Zone de recherche*/
 .bloc-map
 {
-	padding: 3vw;
+	padding: 3.5%;
     border-radius: 2.5vw 0 0 2.5vw;
 }
 
@@ -1394,10 +1320,9 @@ ul
 
 .zone-texte 
 {
-    width: 43vw;
-    font-size: 1em;
-    padding-left: 4vw;
-    padding-right: 0vw;
+    width: 47%;
+	font-size: 1.1em;
+	padding-left: 4%;
 }
 
 .loupe
@@ -1407,17 +1332,16 @@ ul
 
 .rechercher
 {
-	padding: 0 4vw 0 4vw;
-    border-radius: 0 2.5vw 2.5vw 0;
-    font-size: 1.05em;
+	padding: 0 4.5% 0 4.5%;
+	border-radius: 0 2.5vw 2.5vw 0;
+	font-size: 1.05em;
 }
 
 /*Filtres*/
 .filtres
 {
 	display: block;
-	width: 75vw;
-	margin: 2vw 4vw 4vw 7vw;
+	margin: 2% 4% 4% 4%;
 }
 
 .bloc-thematiques 
@@ -1425,7 +1349,7 @@ ul
     width: auto;
 	justify-content: normal;
     flex-wrap: wrap;
-	margin-bottom: 1vw;
+	padding-right: 10%;
 }
 
 .titre-filtres h3
@@ -1435,18 +1359,18 @@ ul
 
 .thematique
 {
-	margin: 3.5vw 12vw 0 0;
+	margin: 3.5% 15% 0 0;
 	border-radius: 6vw;
 }
 
 .thematique p
 {
-	font-size: 0.9em;
+	font-size: 1.05em;
 }
 
 .txt-filtre
 {
-	padding: 1vw;
+	padding: 0.8vw 2vw;
 }
 
 .icone 
@@ -1462,7 +1386,7 @@ ul
 
 .fa-money-bill-wave 
 {
-    padding: 0.95vw;
+    padding: 1vw;
 }
 
 .logo-bonhomme 
@@ -1498,197 +1422,216 @@ ul
 /*Point information*/
 .information
 {
-	width: 75vw;
-	margin: 0 0 5vw 7vw;
-	align-items: center;
+	margin: 0 4% 5% 4%;
 }
 
 .bloc-icone
 {
 	width: auto;
-    padding: 1.3vw 1.7vw 1.3vw 1.7vw;
-    margin-right: 3vw;
-    border-radius: 3vw;
+	padding: 1% 1.8% 1.5% 1.6%;
+	margin-right: 3%;
+	border-radius: 3vw;
 }
 
-.fa-info
+.fa-info 
 {
-	font-size: 0.65em;
-}
-
-.information p 
-{
-    font-size: 1.15em;
+    font-size: 0.7em;
 }
 
 /*Corps de la page*/
-main 
-{
-    width: 89vw;
-}
-
 /*bloc des 2 sections*/
 .bloc-hebergements
 {
-	justify-content: normal;
 	width: 100%;
 	flex-direction: column-reverse;
 }
-
+	
 /*Section "Les plus populaires"*/
 .populaires
 {
-	width: 89vw;
-    height: 120vw;
 	border-radius: 0;
 }
-
+	
 .header-populaires
 {
-	justify-content: space-between;
-    width: 77vw;
-    margin: 6vw;
-    font-size: 1.2em;
+	padding: 0 5%;
+	margin: 6% 0 4% 0;
 }
 
-.titre-populaires
+.fa-chart-line 
 {
-	margin-right: 10vw;
+	font-size: 1.5em;
 }
-
+	
 .bloc-cartesp
 {
-	width: 100%;
-	height: auto;
-	margin-bottom: 8vw;
+	margin-bottom: 5%;
 }
-
+	
 .carte-populaire
 {
-	width: 76vw;
-    height: 29vw;
-    padding: 1vw;
-    margin: 0 5.4vw 3vw 5.4vw;
-    border-radius: 4vw;
-    box-shadow: 0.05vw 0.05vw 3vw #d3d3d3;
+	padding: 1%;
+	margin-bottom: 4%;
+	margin: 0 5% 4% 5%;
+	border-radius: 5vw;
+	box-shadow: 0.05vw 0.05vw 3vw #d3d3d3;
 }
-
+	
+.bloc-imgp 
+{
+	width: 31vw;
+ 	height: 26vw;
+}
+	
 .carte-populaire img 
 {
-    width: 34vw;
-    height: 29vw;
-	border-radius: 4vw 0 0 4vw;
+	width: 100%;
+	height: 100%;
+	border-radius: 5vw 0 0 5vw;
 }
-
+	
 .bloc-textep 
 {
-    width: 38vw;
+	width: 46%;
+	margin-left: 3%;
 }
-
+	
 .bloc-hebergements h2 
 {
-    font-size: 1.2em;
+	font-size: 1.6em;
 }
-
+	
 .bloc-hebergements h3 
 {
-    font-size: 1.1em;
+	font-size: 1.2em;
 }
-
+	
 .nom-hotelp 
 {
-    margin: 4vw 5vw 3vw 0;
+	margin: 6% 0 6% 0;
+	padding-right: 26%;
 }
-
+	
 .bloc-hebergements p 
 {
-    font-size: 0.95em;
+	margin-bottom: 0;
+	font-size: 1em;
 }
-
+	
 .prix-hotelp 
 {
-    margin-bottom: 8vw;
+	margin-bottom: 20%;
+}
+
+.eau
+{
+	margin-bottom: 12%;
+}
+
+.etoilep 
+{
+	font-size: 0.7em;
+}
+
+.quatre-etoilesp 
+{
+	font-size: 0.7em;
 }
 
 /*Section "Hébergements à Marseille"*/
 .hebergements
 {
-	width: 89vw;
-    margin-bottom: 7vw;
-    border-radius: 0;
-    background-color: white;
+	margin: 0;
+	border-radius: 0;
+	background-color: white;
 }
-
+	
 .hebergements h2
 {
-	font-size: 1.3em;
+	font-size: 1.6em;
 }
-
+	
 .titre-hebergements
 {
-	width: 77vw;
-    margin: 6vw 0 3vw 0vw;
+	padding-left: 5%;
+	margin: 6% 0 5% 0;
 }
-
+	
 .bloc-cartes
 {
 	display: flex;
 	flex-direction: column;
-	width: 89vw;
 	align-items: center;
 }
-
+	
 .carte-hebergement
 {
-    width: 76vw;
-    height: 39vw;
-    margin: 0 5.5vw 3vw 5.5vw;
-    padding: 1vw;
-    border-radius: 4vw;
-    box-shadow: 2vw 2vw 3vw #eaeaea;
+	padding: 1%;
+	margin: 0 5%;
+	border-radius: 5vw;
+	box-shadow: 1vw 1vw 3vw #eaeaea;
 }
-
+	
 .bloc-img
 {
-    width: 76vw;
-    height: 25vw;
+	width: 83vw;
+	height: 23vw;
 }
-
+	
 .carte-hebergement img 
 {
-    object-fit: cover;
-    width: 76vw;
-    height: 25vw;
-    border-radius: 4vw 4vw 0 0;
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+	border-radius: 5vw 5vw 0 0;
 }
-
+	
 .bloc-texte 
 {
-    width: 69vw;
-    margin: 0.8vw 0 0 2vw;
+	width: 77vw;
+	margin: 1.5% 0 0 1.5%;
 }
-
+	
 .nom-hotel 
 {
-    margin-bottom: 1.5vw;
+	margin: 0;
+	margin-top: 0;
 }
-
+	
+.prix-hotel 
+{
+	margin-bottom: 1%;
+}
+	
 .bloc-hebergements p 
 {
-    margin-bottom: 1.5vw;
+	margin-bottom: 0;
 }
 
+.quatre-etoiles 
+{
+	font-size: 0.8em;
+}
+
+.etoiles 
+{
+	font-size: 0.8em;
+}
+
+.trois-etoiles 
+{
+	font-size: 0.8em;
+}
+	
 .footer-hebergements 
 {
-    width: 79vw;
-    margin-top: 2.6vw;
+	margin: 5% 0 0 6%;
 }
 
 /*Section "Activités à Marseille"*/
 .bloc-activites 
-{		
-	width: 89vw;
-    height: max-content;
+{
+    padding: 0 8%;
 }
 
 .activites
@@ -1698,122 +1641,111 @@ main
 
 .header-activites 
 {
-    height: auto;
-    margin: 0 0 0 5vw;
+    margin-top: 10%;
 }
 
 .bloc-activites h2
 {
-	font-size: 1.8em;
+	font-size: 1.6em;
 }
 
 .blocs-activites 
 {
     display: flex;
 	flex-direction: column;
-    margin: 4.5vw 0 7vw 0;
-	width: 89vw;
+    margin: 6% 0 9% 0;
 }
 
 .carte-activite 
 {
-    width: 78vw;
-    height: 39vw;
-    margin: 0 5.5vw 2vw 5.5vw;
+    margin-bottom: 1%;
 	border-radius: 4vw;
 	box-shadow: 1vw 1vw 3vw #eaeaea;
 }
 
 .bloc-img-port 
 {
-    width: 78vw;
-    height: 30vw;
-}
-
-.bloc-img-port
-{
-	width: 78vw;
+    width: 83vw;
     height: 30vw;
 }
 
 .bloc-img-pomegues
 {
-	width: 78vw;
+	width: 83vw;
     height: 30vw;
 }
 
 .bloc-img-frioul
 {
-	width: 78vw;
+	width: 83vw;
     height: 30vw;
 }
 
 .bloc-img-calanques
 {
-	width: 78vw;
+	width: 83vw;
     height: 30vw;
 }
 
 .bloc-img-dame
 {
-	width: 78vw;
+	width: 83vw;
     height: 30vw;
 }
 
 .bloc-img-longchamp
 {
-	width: 78vw;
+	width: 83vw;
     height: 30vw;
 }
 
 .img-activites 
 {
-    border-radius: 4vw 4vw 0 0;
-    width: 78vw;
-    height: 30vw;
+    width: 100%;
+    height: 100%;
+	border-radius: 4vw 4vw 0 0;
 }
 
 .bloc-txt 
 {
-    padding: 3.2vw 3.5vw 3.5vw 3.5vw;
+    padding: 3.5%;
 }
 
 .bloc-activites h3 
 {
-    font-size: 0.9em;
+    font-size: 1em;
 }
 
 /*Footer*/
 footer
 {
-    height: 72vw;
-    padding: 5vw 0 0 1vw;
-    width: 83.5vw;
+	width: 92%;
+	height: max-content;
+	padding: 4% 0 6% 8%;
 }
 
 .bloc-footer
 {
-	width: auto;
     justify-content: normal;
     flex-direction: column;
+	margin: 0;
 }
 
 .bloc-thematique
 {
-	margin-bottom: 2vw;
-    width: 70vw;
+	width: 40%;
 }
 
 .bloc-thematique h3
 {
 	font-size: 1.1em;
-    margin: 2.8vw 0 3.5vw 0;
+    margin: 11% 0 9% 0;
 }
 
 .bloc-thematique p
 {
 	font-size: 0.98em;
-    margin-bottom: 3vw;
+    margin-bottom: 8%;
 }
 }
 
@@ -1827,32 +1759,37 @@ footer
 }
 
 /*Version HD*/
-@media only screen and (min-device-width : 1441px) and (max-device-width : 2560px) 
+@media only screen and (min-device-width: 1441px) and (max-device-width: 1940px) 
 {
+/*Header*/
 /*Header du header*/
 .logo
 {
 	background-image: url(images/logo_hd.png);
-    width: 9vw;
-    height: 3vw;
     background-repeat: no-repeat;
+	padding: 2.2vw 6vw;
     margin-top: 3.55vw;
+}
+
+nav li 
+{
+    padding-top: 4.5vw;
 }
 
 nav a
 {
-	font-size: 1.7em;
+	font-size: 1.9em;
 }
 
 .sinscrire
 {
-	font-size: 1.7em;
+	font-size: 1.9em;
 }
 
 /*Présentation*/
 .titre-presentation-h2 
 {
-    font-size: 2em;
+    font-size: 2.1em;
 }
 
 .presentation p
@@ -1874,8 +1811,9 @@ nav a
 
 .zone-texte
 {
-	font-size: 1.8em;
-	padding: 0.8vw 4vw 0.8vw 1.5vw;
+	font-size: 2em;
+	padding: 0.8vw 2vw 0.8vw 1.5vw;
+	width: 17vw;
 }
 
 .loupe
@@ -1886,19 +1824,44 @@ nav a
 button 
 {
     padding: 0.8vw 1.2vw 0.8vw 1.2vw;
-	font-size: 1.8em;
+	font-size: 2em;
 }
 
 /*Filtres*/
+.filtres
+{
+	margin: 2vw 21vw 2.1vw 3vw;
+}
+
 .titre-filtres-h3 
 {
-    font-size: 1.9em;
+    font-size: 2em;
+}
+
+.thematique 
+{
+    margin-left: 2.5vw;
+}
+
+.economique
+{
+	margin-left: 0;
+}
+
+.thematique p 
+{
+    font-size: 2em;
 }
 
 .fa-money-bill-wave 
 {
     font-size: 2em;
 	padding: 1vw;
+}
+
+.logo-bonhomme 
+{
+    box-shadow: 0px 0px 0px 0.19vw #DEEBFF;
 }
 
 .fa-child 
@@ -1911,6 +1874,11 @@ button
 {
     padding: 1.1vw;
     font-size: 2em;
+}
+
+.logo-chien 
+{
+    box-shadow: 0 0 0 0.19vw #DEEBFF;
 }
 
 .fa-dog 
@@ -1928,7 +1896,7 @@ button
 /*Point information*/
 .bloc-icone
 {
-	padding: 0.5vw 1vw 1.1vw 0.9vw;
+	padding: 0.5vw 1.2vw 1.3vw 0.9vw;
 }
 
 .fa-info
@@ -1941,83 +1909,100 @@ button
     font-size: 1.7em;
 }
 
+/*Corps de la page*/
 /*Bloc des 2 sections*/
+/*Section "Hébergements à Marseille"*/
+.nom-hotel 
+{
+    margin: 1vw 0vw 0.3vw 0;
+}
+
 .bloc-hebergements h2 
 {
-    font-size: 2em;
+    font-size: 1.6em;
 }
 
 .bloc-hebergements h3 
 {
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 .bloc-hebergements p 
 {
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
-/*Section "Hébergements à Marseille"*/
 .etoiles
 {
-	font-size: 1.1em;
+	font-size: 0.9em;
 }
 
 .quatre-etoiles
 {
-	font-size: 1.1em;
+	font-size: 0.9em;
 }
 
 .trois-etoiles
 {
-	font-size: 1.1em;
+	font-size: 0.9em;
 }
 
 .footer-hebergements h3
 {
-	font-size: 1.8em;
+	font-size: 1.3em;
 }
 
 /*Section "Les plus populaires"*/
-.fa-chart-line
+.carte-populaire
 {
-	font-size: 2em;
+	margin-bottom: 1.5vw;
 }
 
-.etoilesp
+.nom-hotelp 
 {
-	font-size: 1em;
+    margin: 1vw 0 0.5vw 0;
+    padding-right: 2vw;
+}
+
+.fa-chart-line
+{
+	font-size: 1.6em;
+}
+
+.etoilep
+{
+	font-size: 0.8em;
 }
 
 .quatre-etoilesp
 {
-	font-size: 1em;
+	font-size: 0.8em;
 }
 
 /*Section "Activités à Marseille"*/
-.header-activites
+.header-activites h2 
 {
-	height: 4vw;
+    font-size: 1.6em;
 }
 
-.header-activites h2
+.bloc-txt 
 {
-	font-size: 2.8em;
+    padding-top: 1vw;
 }
 
 .bloc-activites h3 
 {
-    font-size: 1.5em;
+    font-size: 1.1em;
 }
 
 /*Footer*/
 .bloc-thematique h3 
 {
-    font-size: 1.7em;
+    font-size: 1.4em;
 }
 
 .bloc-thematique p 
 {
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 }
