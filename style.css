@@ -91,9 +91,9 @@ nav a:hover
 	margin: 0 3vw;
 }
 
-.titre-presentation-h2
+.titre-presentation
 {
-	font-size: 1.2em;
+	margin-top: 2vw;
 }
 
 .txt-presentation
@@ -1055,7 +1055,7 @@ nav li:hover
 
 .bloc-texte 
 {
-    width: 85vw;
+  width: 85vw;
 	margin: 2.5vw 0 0 3vw;
 }
 
@@ -1299,7 +1299,7 @@ nav li:hover
 /*Zone de recherche*/
 .bloc-map
 {
-	padding: 3vw;
+	padding: 3.5%;
     border-radius: 2.5vw 0 0 2.5vw;
 }
 
@@ -1752,6 +1752,7 @@ footer
 {
 	background-image: url(images/logo_hd.png);
     background-repeat: no-repeat;
+	padding: 2.2vw 6vw;
     margin-top: 3.55vw;
 }
 
