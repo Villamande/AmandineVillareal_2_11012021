@@ -35,7 +35,8 @@ header
 {
 	background-image: url(images/logo.png);
     background-repeat: no-repeat;
-	padding: 1.2vw 3.6vw;
+	width: 13vw;
+    height: 5vw;
     margin-top: 3.55vw;
 }
 
@@ -93,11 +94,6 @@ nav a:hover
 .titre-presentation
 {
 	margin-top: 2vw;
-}
-
-.titre-presentation-h2
-{
-	font-size: 1.2em;
 }
 
 .txt-presentation
@@ -270,9 +266,7 @@ button
 	border-radius: 2vw;
 	border: 0.05vw solid #DCDCDC;
 	padding: 0.4vw 0.6vw 0.4vw 0.6vw;
-	margin-right: 1vw;	
-	width: 3.5px;
-    height: 9px;
+	margin-right: 1vw;
 }
 
 .fa-info
@@ -702,7 +696,7 @@ footer
 }
 
 /*Version mobile*/
-@media only screen and (min-device-width: 320px) and (max-device-width: 375px)
+@media only screen and (min-width: 0) and (max-width: 376px)
 {
 /*Header*/
 /*Header du header*/
@@ -717,14 +711,15 @@ footer
 {
 	background-image: url(images/logo_mobile.png);
     background-repeat: no-repeat;
+	width: 27vw;
+	height: 12vw;
     margin: 8.5% 0 0 3%;
-	padding: 5% 14%;
 }
 
 nav
 {
 	position: absolute;
-	width: 99%;
+	width: 100%;
 }
 
 nav ul
@@ -913,15 +908,15 @@ nav li:hover
 /*Point information*/
 .information
 {
-	margin: 0 3% 8% 3%;
+	margin: 0 3% 10% 3%;
 	align-items: normal;
 }
 
 .bloc-icone
 {
 	width: auto;
-	padding: 1.8% 2.8% 2.5% 2.8%;
-	margin-right: 3%;
+	padding: 1.6% 2.6% 1.6% 2.6%;
+	margin: 0 3% 4% 0;
 	border-radius: 3vw;
 }
 
@@ -1046,7 +1041,7 @@ nav li:hover
 
 .bloc-img
 {
-  width: 90vw;
+    width: 90vw;
 	height: 30vw;
 }
 
@@ -1066,12 +1061,12 @@ nav li:hover
 
 .nom-hotel 
 {
-  margin: 0 0 1.5% 0;
+    margin: 0 0 1.5% 0;
 }
 
 .prix-hotel 
 {
-  margin-bottom: 1%;
+    margin-bottom: 1%;
 }
 
 .bloc-hebergements p 
@@ -1186,11 +1181,6 @@ footer
 	margin-bottom: 0;
 }
 
-.assistance
-{
-	margin-bottom: 0;
-}
-
 .bloc-thematique h3
 {
 	font-size: 1em;
@@ -1205,14 +1195,14 @@ footer
 }
 
 /*Version tablette*/
-@media only screen and (min-device-width: 376px) and (max-device-width: 768px) 
+@media only screen and (min-width: 377px) and (max-width: 768px) 
 {
 /*Header*/
 /*Header du header*/
 .header-du-header
 {
 	width: 100%;
-	padding: 0 0 14% 0;
+	padding: 0 0 13% 0;
 	margin: 0;
 }
 
@@ -1221,7 +1211,8 @@ footer
 	background-image: url(images/logo_tablette.png);
     background-repeat: no-repeat;
     margin: 6% 0 0 4%;
-	padding: 4% 9%;
+	width: 33vw;
+	height: 13vw;
 }
 
 nav
@@ -1232,7 +1223,6 @@ nav
 
 nav ul
 {
-	width: 100%;
 	flex-wrap: wrap;
 	padding: 0;
 }
@@ -1285,7 +1275,7 @@ nav li:hover
 }
 
 /*Présentation*/
-.presentation 
+.presentation
 {
 	margin: 3% 4% 3% 4%;
 }
@@ -1381,7 +1371,7 @@ nav li:hover
 
 .logo-billet
 {
-	box-shadow: 0 0 0 1vw #deebff;
+	box-shadow: 0 0 0 0.9vw #deebff;
 }
 
 .fa-money-bill-wave 
@@ -1391,7 +1381,7 @@ nav li:hover
 
 .logo-bonhomme 
 {
-    box-shadow: 0px 0px 0px 0.55vw #deebff;
+    box-shadow: 0 0 0 0.55vw #deebff;
 }
 
 .fa-child 
@@ -1634,11 +1624,6 @@ nav li:hover
     padding: 0 8%;
 }
 
-.activites
-{
-	width: 89vw;
-}
-
 .header-activites 
 {
     margin-top: 10%;
@@ -1750,7 +1735,7 @@ footer
 }
 
 /*Version desktop*/
-@media only screen and (min-device-width : 769px) and (max-device-width : 1440px) 
+@media only screen and (min-width : 769px) and (max-width : 1440px) 
 {
 .loupe
 {
@@ -1759,7 +1744,7 @@ footer
 }
 
 /*Version HD*/
-@media only screen and (min-device-width: 1441px) and (max-device-width: 1940px) 
+@media only screen and (min-width: 1441px) and (max-width: 1940px) 
 {
 /*Header*/
 /*Header du header*/
@@ -1787,6 +1772,11 @@ nav a
 }
 
 /*Présentation*/
+.titre-presentation
+{
+	margin-top: 2vw;
+}
+
 .titre-presentation-h2 
 {
     font-size: 2.1em;
@@ -1861,7 +1851,7 @@ button
 
 .logo-bonhomme 
 {
-    box-shadow: 0px 0px 0px 0.19vw #DEEBFF;
+    box-shadow: 0 0 0 0.19vw #DEEBFF;
 }
 
 .fa-child 
