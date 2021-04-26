@@ -658,16 +658,17 @@ footer {
 
     /*Présentation*/
     .presentation {
-        margin: 3%;
+        margin: 3% 0;
+    	width: 100%;
     }
 
     .titre-presentation-h1 {
         font-size: 1.3em;
-        margin: 0 18% 3% 4%;
+        margin: 0 18% 3% 6%;
     }
 
     .txt-presentation {
-        margin: 0 0 7% 4%;
+        margin: 0 0 7% 6%;
     }
 
     .presentation p {
@@ -676,7 +677,7 @@ footer {
 
     /*Zone de recherche*/
     .zone-recherche {
-        margin-left: 4%;
+        margin: 0 0 0 6%;
     }
 
     .bloc-map {
@@ -703,12 +704,12 @@ footer {
 	.filtres {
 		display: flex;
         flex-direction: column;
-        width: 90%;
-		margin: 2% 4% 8% 6%;
+        width: 100%;
+    	margin: 3% 0 8% 0;
 	}
 
-    .titre-filtres{
-        width: 100%;
+    .titre-filtres {
+        margin-left: 7%;
     }
 
 	.filtres h3 {
@@ -716,10 +717,9 @@ footer {
 	}
 
 	.bloc-thematiques {
-		width: 100%;
 		justify-content: normal;
 		flex-wrap: wrap;
-		margin-left: 0;
+		margin: 0 6% 0 6%;
 	}
 
 	.thematique {
@@ -774,19 +774,23 @@ footer {
 
     /*Point information*/
 	.information {
-		width: 85%;
-		margin: 0 8% 8% 7%;
+		width: 100%;
+		margin: 0 0 8% 0;
 		align-items: normal;
 	}
 
 	.bloc-icone {
 		padding: 1.6% 2.6% 1.6% 2.6%;
-		margin: 0 3% 6% 0;
+		margin: 0 3% 6% 6%;
 		border-radius: 3vw;
 	}
 
 	.fa-info {
 		font-size: 0.7em;
+	}
+
+	.txt-information {
+		margin: 0 8% 0 0;
 	}
 
 	/*Corps de la page*/
@@ -799,17 +803,21 @@ footer {
 
 	/*Section "Les plus populaires"*/
 	.populaires {
-		width: 86%;
-		padding: 0 7%;
+		width: 100%;
+		padding: 0;
 		border-radius: 0;
 	}
 
 	.header-populaires {
-		margin: 10% 0 8% 0;
+		margin: 10% 7% 8% 7%;
 	}
 
 	.titre-populaires {
 		margin-right: 36%;
+	}
+
+	.bloc-cartesp{
+		margin: 0 7%;
 	}
 
 	.carte-populaire {
@@ -862,7 +870,8 @@ footer {
 
 	/*Section "Hébergements à Marseille"*/
 	.hebergements {
-		padding: 0 7%;
+		width: 100%;
+		padding: 0;
 		margin-right: 0;
 		border-radius: 0;
 		background-color: white;
@@ -872,14 +881,19 @@ footer {
 		font-size: 1.3em;
 	}
 
+	.header-hebergements{
+		width: 100%;
+	}
+
 	.titre-hebergements {
-		margin: 10% 0 5% 0;
+		margin: 10% 7% 5% 7%;
 	}
 
 	.bloc-cartes {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		width: 100%;
 	}
 
 	.carte-hebergement {
@@ -941,23 +955,45 @@ footer {
 	}
 
 	.footer-hebergements {
-		margin: 8% 0 0 2%;
+		width: 100%;
+		margin: 0;
+	}
+
+	.txt-footer-hebergements {
+		margin: 8% 0 0 7%;
 	}
 
 	/*Section "Activités à Marseille"*/
+	.bloc-activites {
+		width: 100%;
+	}
+
+	.ancre-activites {
+		width: 100%;
+	}
+
+	.header-activites {
+		width: 100%;
+	}
+
+	.titre-activites{
+		margin: 12% 0 0 6%;
+	}
+
+	.blocs-activites {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		margin: 9% 0 9% 0;
+		align-items: center;
+	}
+
 	.header-activites {
 		margin: 12% 0 0 0;
 	}
 
 	.bloc-activites h2 {
 		font-size: 1.3em;
-	}
-
-	.blocs-activites {
-		display: flex;
-		flex-direction: column;
-		margin: 9% 0 9% 0;
-		align-items: center;
 	}
 
 	.carte-activite {
@@ -1010,12 +1046,14 @@ footer {
 	/*Footer*/
 	footer {
 		height: max-content;
-		padding: 7% 0 13% 7%;
+		width: 100%;
+		padding: 0;
 	}
 
 	.bloc-footer {
 		justify-content: normal;
 		flex-direction: column;
+		padding: 7% 0 13% 7%;
 		margin-right: 0;
 	}
 
@@ -1165,7 +1203,6 @@ footer {
 
 	/*Filtres*/
 	.filtres {
-		display: flex;
 		flex-direction: column;
 		width: 100%;
 		margin: 0;
@@ -1209,7 +1246,7 @@ footer {
 	}
 
 	.fa-money-bill-wave {
-		padding: 1vw;
+		padding: 1.05vw;
 	}
 
 	.logo-bonhomme {
@@ -1244,8 +1281,8 @@ footer {
 
 	.bloc-icone {
 		width: auto;
-		padding: 1% 1.8% 1.3% 1.6%;
-		margin: 0 3% 0 9%;
+		padding: 0.9% 1.4% 1% 1.3%;
+     	margin: 0 2% 0 9%;
 		border-radius: 3vw;
 	}
 
@@ -1270,9 +1307,6 @@ footer {
 		width: 100%;
 		padding: 0;
 		border-radius: 0;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
 	}
 
 	.header-populaires {
@@ -1294,9 +1328,7 @@ footer {
 
 	.bloc-cartesp {
 		width: 100%;
-		display: flex;
 		margin-bottom: 5%;
-		flex-direction: column;
 	}
 
 	.carte-populaire {
@@ -1366,8 +1398,10 @@ footer {
 		border-radius: 0;
 		background-color: white;
 		padding: 0;
-		display: flex;
-    	flex-direction: column;
+	}
+
+	.header-hebergements{
+		width: 100%;
 	}
 
 	.hebergements h2 {
@@ -1439,6 +1473,10 @@ footer {
 	}
 
 	.footer-hebergements {
+		width: 100%;
+	}
+
+	.txt-footer-hebergements{
 		margin: 5% 0 0 9%;
 	}
 
@@ -1572,15 +1610,12 @@ footer {
 
 	/*Présentation*/
 	.titre-presentation {
-		margin-top: 2vw;
+		margin-top: 1.5vw;
 	}
 
 	.titre-presentation-h1 {
 		font-size: 2.1em;
-	}
-
-	.txt-presentation {
-		margin: 0 0 7% 4%;
+		margin: 0;
 	}
 
 	.presentation p {
@@ -1668,11 +1703,11 @@ footer {
 	
 	/*Point information*/
 	.bloc-icone {
-		padding: 0.6vw 1vw 0.7vw 0.9vw;
+		padding: 0.5vw 0.8vw 0.6vw 0.8vw;
 	}
 
 	.fa-info {
-		font-size: 1.3em;
+		font-size: 1.1em;
 	}
 
 	.information p {
@@ -1682,12 +1717,12 @@ footer {
 	/*Corps de la page*/
 	/*Bloc des 2 sections*/
 	/*Section "Hébergements à Marseille"*/
-	.nom-hotel {
-		margin: 1vw 0vw 0.3vw 0;
+	.bloc-hebergements h2 {
+		font-size: 1.8em;
 	}
 
-	.bloc-hebergements h2 {
-		font-size: 1.6em;
+	.nom-hotel {
+		margin: 0.3vw 0vw 0.3vw 0;
 	}
 
 	.bloc-hebergements h3 {
@@ -1738,7 +1773,7 @@ footer {
 
 	/*Section "Activités à Marseille"*/
 	.header-activites h2 {
-		font-size: 1.6em;
+		font-size: 1.8em;
 	}
 
 	.bloc-txt {
