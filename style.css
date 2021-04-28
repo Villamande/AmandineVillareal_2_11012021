@@ -898,6 +898,7 @@ footer {
 
 	.carte-hebergement {
 		padding: 1.5%;
+		margin: 0 7.4%;
 		border-radius: 5vw;
 		box-shadow: 1vw 1vw 3vw #eaeaea;
 	}
@@ -907,7 +908,6 @@ footer {
 	}
 
 	.bloc-img {
-		width: 82vw;
 		height: 29vw;
 	}
 
@@ -1421,6 +1421,7 @@ footer {
 
 	.carte-hebergement {
 		padding: 1%;
+		margin: 0 9.5%;
 		border-radius: 5vw;
 		box-shadow: 1vw 1vw 3vw #eaeaea;
 	}
@@ -1430,7 +1431,6 @@ footer {
 	}
 
 	.bloc-img {
-		width: 79vw;
 		height: 23vw;
 	}
 
@@ -1515,32 +1515,26 @@ footer {
 	}
 
 	.bloc-img-port {
-		width: 80.3vw;
 		height: 30vw;
 	}
 
 	.bloc-img-pomegues {
-		width: 80.3vw;
 		height: 30vw;
 	}
 
 	.bloc-img-frioul {
-		width: 80.3vw;
 		height: 30vw;
 	}
 
 	.bloc-img-calanques {
-		width: 80.3vw;
 		height: 30vw;
 	}
 
 	.bloc-img-dame {
-		width: 80.3vw;
 		height: 30vw;
 	}
 
 	.bloc-img-longchamp {
-		width: 80.3vw;
 		height: 30vw;
 	}
 
