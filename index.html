@@ -9,94 +9,92 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header>
+    <!--Header du header-->
+        <div class="header-du-header">
+            <div class="logo"></div>
+            <nav>
+                <ul>
+                    <li class="li-nav-hebergements"><a class="nav-hebergements" href="#ancre-hebergements">Hébergements</a></li>
+                    <li class="li-nav-activites"><a class="nav-activites" href="#ancre-activites">Activités</a></li>
+                    <li class="sinscrire">S'inscrire</li>
+                </ul>
+            </nav>
+        </div>
+        <!--Presentation-->
+        <div class="presentation">
+            <div class="titre-presentation">
+                <h1 class="titre-presentation-h1">Trouvez votre hébergement pour des vacances de rêve</h1>
+            </div>
+            <div class="txt-presentation">   
+                <p>En plein centre ville ou en pleine nature</p>
+            </div>
+            <!--Zone de recherche-->
+            <form class="zone-recherche">
+                <label class="bloc-map" for="map"><i class="fas fa-map-marker-alt"></i></label>
+                <input  id="map" class="zone-texte" type="text" name="recherche" value="Marseille, France"/>
+                <button type="submit"><span class="rechercher">Rechercher</span><i class="fas fa-search" id="loupe"></i></button>
+            </form>
+        </div>
+        <!--Filtres-->
+        <div class="filtres">
+            <div class="titre-filtres">
+                <h3 class="titre-filtres-h3">Filtres</h3>
+            </div>
+            <div class="bloc-thematiques">
+                <div class="thematique economique">
+                    <div class="icone logo-billet">
+                        <i class="fas fa-money-bill-wave"></i>
+                    </div>
+                    <div class="txt-filtre">
+                        <p>Économique</p>
+                    </div>
+                </div>
+                <div class="thematique">
+                    <div class="icone logo-bonhomme">
+                        <i class="fas fa-child"></i>
+                    </div>
+                    <div class="txt-filtre">
+                        <p>Familial</p>
+                    </div>
+                </div>
+                <div class="thematique">
+                    <div class="icone logo-coeur">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <div class="txt-filtre">
+                        <p>Romantique</p>
+                    </div>
+                </div>
+                <div class="thematique">
+                    <div class="icone logo-chien">
+                        <i class="fas fa-dog"></i>
+                    </div>
+                    <div class="txt-filtre">
+                        <p>Animaux autorisés</p>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <!--Point information-->
+        <div class="information">
+            <div class="bloc-icone">
+                <i class="fas fa-info"></i>
+            </div>
+            <div class="txt-information">
+                <p>Plus de 500 logement sont disponibles dans cette ville</p>
+            </div>
+        </div>
+    </header>
     <div id="container">
-        <header>
-        <!--Header du header-->
-            <div class="header-du-header">
-                <div class="logo"></div>
-                <nav>
-                    <ul>
-                        <li class="li-nav-hebergements"><a class="nav-hebergements" href="#ancre-hebergements">Hébergements</a></li>
-                        <li class="li-nav-activites"><a class="nav-activites" href="#ancre-activites">Activités</a></li>
-                        <li class="sinscrire">S'inscrire</li>
-                    </ul>
-                </nav>
-            </div>
-            <!--Presentation-->
-            <div class="presentation">
-                <div class="titre-presentation">
-                    <h1 class="titre-presentation-h1">Trouvez votre hébergement pour des vacances de rêve</h1>
-                </div>
-                <div class="txt-presentation">   
-                    <p>En plein centre ville ou en pleine nature</p>
-                </div>
-                <!--Zone de recherche-->
-                <form class="zone-recherche">
-                    <label class="bloc-map" for="map"><i class="fas fa-map-marker-alt"></i></label>
-                    <input  id="map" class="zone-texte" type="text" name="recherche" value="Marseille, France"/>
-                    <button type="submit"><span class="rechercher">Rechercher</span><i class="fas fa-search" id="loupe"></i></button>
-                </form>
-            </div>
-            <!--Filtres-->
-            <div class="filtres">
-                <div class="titre-filtres">
-                    <h3 class="titre-filtres-h3">Filtres</h3>
-                </div>
-                <div class="bloc-thematiques">
-                    <div class="thematique economique">
-                        <div class="icone logo-billet">
-                            <i class="fas fa-money-bill-wave"></i>
-                        </div>
-                        <div class="txt-filtre">
-                            <p>Économique</p>
-                        </div>
-                    </div>
-                    <div class="thematique">
-                        <div class="icone logo-bonhomme">
-                            <i class="fas fa-child"></i>
-                        </div>
-                        <div class="txt-filtre">
-                            <p>Familial</p>
-                        </div>
-                    </div>
-                    <div class="thematique">
-                        <div class="icone logo-coeur">
-                            <i class="fas fa-heart"></i>
-                        </div>
-                        <div class="txt-filtre">
-                            <p>Romantique</p>
-                        </div>
-                    </div>
-                    <div class="thematique">
-                        <div class="icone logo-chien">
-                            <i class="fas fa-dog"></i>
-                        </div>
-                        <div class="txt-filtre">
-                            <p>Animaux autorisés</p>
-                        </div>
-                    </div>
-                </div> 
-            </div>
-            <!--Point information-->
-            <div class="information">
-                <div class="bloc-icone">
-                    <i class="fas fa-info"></i>
-                </div>
-                <div class="txt-information">
-                    <p>Plus de 500 logement sont disponibles dans cette ville</p>
-                </div>
-            </div>
-        </header>
         <!--Corps de la page-->
         <main>
             <!--Bloc des 2 sections-->
             <div class="bloc-hebergements">
                 <!--Passage à la section "Hébergements à Marseille"-->
-                <section id="ancre-hebergements" class="hebergements">
-                    <div class="header-hebergements">    
-                        <div class="titre-hebergements">
-                            <h2>Hébergements à Marseille</h2>
-                        </div>
+                <section id="ancre-hebergements" class="hebergements">  
+                    <div class="titre-hebergements">
+                        <h2>Hébergements à Marseille</h2>
                     </div>
                     <div class="bloc-cartes">
                         <!--Auberge de la Cannebière-->
@@ -312,11 +310,9 @@
             <!--Passage à la section "Activités à Marseille"-->
             <div class="bloc-activites">
                 <section id="ancre-activites" class="activites">
-                    <div class="header-activites">
-                        <div class="titre-activites">
-                            <h2>Activités à Marseille</h2>  
-                        </div>                  
-                    </div>
+                    <div class="titre-activites">
+                        <h2>Activités à Marseille</h2>  
+                    </div>                  
                     <div class="blocs-activites">
                         <!--Vieux Port-->
                         <div class="carte-activite port">
@@ -376,39 +372,39 @@
                 </section>
             </div>    
         </main>
-        <!--Passage au footer-->  
-        <footer>
-            <div class="bloc-footer">
-                <div class="bloc-thematique">
-                    <div>
-                        <h3>A propos</h3>
-                    </div>
-                    <div>
-                        <p>Fonctionnement du site</p>
-                        <p>Conditions générale de vente</p>
-                        <p>Données et confidentialité</p>
-                    </div>
+    </div>
+    <!--Passage au footer-->  
+    <footer>
+        <div class="bloc-footer">
+            <div class="bloc-thematique">
+                <div>
+                    <h3>A propos</h3>
                 </div>
-                <div class="bloc-thematique">
-                    <div>
-                        <h3>Nos hébergements</h3>
-                    </div>
-                    <div>
-                        <p>Charte Qualité</p>
-                        <p>Soumettre votre hôtel</p>
-                    </div>
-                </div>
-                <div class="bloc-thematique assistance">
-                    <div>
-                        <h3>Assistance</h3>
-                    </div>
-                    <div>
-                        <p>Centre d'aide</p>
-                        <p>Nous contacter</p>
-                    </div>
+                <div>
+                    <p>Fonctionnement du site</p>
+                    <p>Conditions générale de vente</p>
+                    <p>Données et confidentialité</p>
                 </div>
             </div>
-        </footer>
-    </div>    
+            <div class="bloc-thematique">
+                <div>
+                    <h3>Nos hébergements</h3>
+                </div>
+                <div>
+                    <p>Charte Qualité</p>
+                    <p>Soumettre votre hôtel</p>
+                </div>
+            </div>
+            <div class="bloc-thematique assistance">
+                <div>
+                    <h3>Assistance</h3>
+                </div>
+                <div>
+                    <p>Centre d'aide</p>
+                    <p>Nous contacter</p>
+                </div>
+            </div>
+        </div>
+    </footer>    
 </body>
 </html>
