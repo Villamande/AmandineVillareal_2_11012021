@@ -441,7 +441,7 @@ main {
 	margin-bottom: 4vw;
 }
 
-.header-activites {
+.titre-activites {
 	margin: 3.5vw 0 1.5vw 0;
 }
 
@@ -1705,7 +1705,7 @@ footer {
 	}
 
 	/*Section "Activités à Marseille"*/
-	.header-activites h2 {
+	.titre-activites h2 {
 		font-size: 1.8em;
 	}
 
